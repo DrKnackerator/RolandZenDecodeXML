@@ -439,6 +439,7 @@ $includePadding = $config->settings->includePadding ?? false;
 
 $textOutFile = $conOut ? STDOUT : fopen("out/$configName.txt", "w");
 $JSONOutFile = fopen("out/$configName.json","w");
+$JSOutFile = fopen("out/$configName.js","w");
 $HTMLOutFile = fopen("out/$configName.html","w");
 $tableTmp = tmpfile();
 $HTMLTemplate = file_get_contents("template.html");
@@ -481,13 +482,22 @@ foreach($config->importXML as $xmlFileImport) {
     }
 }
 
-fwrite($JSONOutFile, json_encode($outputObject,JSON_PRETTY_PRINT));
+fwrite($JSOutFile,"export default\r\n");
+
+$JSONEncodeOptions = JSON_UNESCAPED_SLASHES;
+if ($config->settings->prettyJSON ?? false)
+    $JSONEncodeOptions |= JSON_PRETTY_PRINT;
+
+$JSON = json_encode($outputObject,$JSONEncodeOptions);
+fwrite($JSONOutFile, $JSON);
+fwrite($JSOutFile, $JSON);
 
 rewind($tableTmp);
 $htmlTable = "<h1>Config: $configName</h1>".fread($tableTmp,2*1024*1024);
 $HTML = str_replace("<REPLACE/>",$htmlTable,$HTMLTemplate);
 fwrite($HTMLOutFile,$HTML);
 
+fclose($JSOutFile);
 fclose($JSONOutFile);
 fclose($textOutFile);
 fclose($HTMLOutFile);

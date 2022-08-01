@@ -1,5 +1,5 @@
 # RolandZenDecodeXML
-A tool to decode Roland editor XML files (initially Jupiter X/Xm and ZenCore) and generate JSON with byte offsets (for files)
+A tool to decode Roland editor XML files (initially Jupiter X/Xm and ZenCore) and generate JSON and a Javascript module with byte offsets (for files)
 and SYSEX locations/length, with plain text and HTML output tables for easy reading.
 
 The data generated here is going to work with the Roland Jupiter X/Xm, Fantom 6/7/8 and 06/07/08, Juno-X, Zenology files etc. Note although MC-101 and MC-707 do not support sysex, buried in their project data is ZCore tone information in binary format.
@@ -31,8 +31,9 @@ Where `<config_name>` is the filename of a JSON file in the config directory e.g
 In the `out` directory three files will be created:
 
 - `<config_name>.json` the full data
-- `<config_name>.html` a quick reference in HTML
-- `<config_name>.txt` a quick reference in text (note, parameter lists are truncated)
+- `<config_name>.js` the full data formatted as a module (so like above but starts with `export default`)
+- `<config_name>.html` a reference in HTML
+- `<config_name>.txt` a reference in text (note, parameter lists are truncated)
 
 ## Config files
 
@@ -48,11 +49,13 @@ Configuration settings:
 
     "settings": {
         "includePadding":false,
-        "textTableToConsole": false
+        "textTableToConsole": false,
+        "prettyJSON" : false
     },
 
 - `includePadding` - the binary layout of the information has padding added in places, which is invisible to the SYSEX layout. Turning this to `true` will include entries for the padding. Mainly useful to check generation as otherwise the padding is included but not listed as an actual element, so might be difficult to spot.
 - `textTableToConsole` - instead of outputting `<config_name>.txt` the text version of the table is output to the console. Useful for checking/debugging.
+- `prettyJSON` - Will pretty print the JSON and JS output. Not recommended as it makes the file huge.
 
 ### config : `importXML`
 

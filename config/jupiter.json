@@ -1,7 +1,8 @@
 {
     "settings": {
         "includePadding":false,
-        "textTableToConsole": false
+        "textTableToConsole": false,
+        "prettyJSON" : false
     },
     "importXML": [
         {
