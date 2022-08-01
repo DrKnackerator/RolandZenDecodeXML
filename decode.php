@@ -426,7 +426,7 @@ $configName = $argv[1] ?? "no config specified";
 
 $outputObject=[
     "blocks"=>[],
-    "compoundBlocks"=>[]
+    "groups"=>[]
 ];
 
 pr("*********** Zen XML Converter Thingy ** config:$configName ***********\r\n");
