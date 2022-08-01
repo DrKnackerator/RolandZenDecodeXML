@@ -1,0 +1,684 @@
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PCMT_CMN                                                                                                                                                                                                            |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ID               | Description               | SXOff - len | Byte offset - len | Min | Max  | Offset | Init | Values                                                                                                         |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| NAME_1           | Name 1                    |  00 00 - 01 | 0x0000 0000 - 01  | 32  | 127  | 0      | 32   |                                                                                                                |
+| NAME_2           | Name 2                    |  00 01 - 01 | 0x0001 0001 - 01  | 32  | 127  | 0      | 32   |                                                                                                                |
+| NAME_3           | Name 3                    |  00 02 - 01 | 0x0002 0002 - 01  | 32  | 127  | 0      | 32   |                                                                                                                |
+| NAME_4           | Name 4                    |  00 03 - 01 | 0x0003 0003 - 01  | 32  | 127  | 0      | 32   |                                                                                                                |
+| NAME_5           | Name 5                    |  00 04 - 01 | 0x0004 0004 - 01  | 32  | 127  | 0      | 32   |                                                                                                                |
+| NAME_6           | Name 6                    |  00 05 - 01 | 0x0005 0005 - 01  | 32  | 127  | 0      | 32   |                                                                                                                |
+| NAME_7           | Name 7                    |  00 06 - 01 | 0x0006 0006 - 01  | 32  | 127  | 0      | 32   |                                                                                                                |
+| NAME_8           | Name 8                    |  00 07 - 01 | 0x0007 0007 - 01  | 32  | 127  | 0      | 32   |                                                                                                                |
+| NAME_9           | Name 9                    |  00 08 - 01 | 0x0008 0008 - 01  | 32  | 127  | 0      | 32   |                                                                                                                |
+| NAME_10          | Name 10                   |  00 09 - 01 | 0x0009 0009 - 01  | 32  | 127  | 0      | 32   |                                                                                                                |
+| NAME_11          | Name 11                   |  00 0a - 01 | 0x000a 0010 - 01  | 32  | 127  | 0      | 32   |                                                                                                                |
+| NAME_12          | Name 12                   |  00 0b - 01 | 0x000b 0011 - 01  | 32  | 127  | 0      | 32   |                                                                                                                |
+| NAME_13          | Name 13                   |  00 0c - 01 | 0x000c 0012 - 01  | 32  | 127  | 0      | 32   |                                                                                                                |
+| NAME_14          | Name 14                   |  00 0d - 01 | 0x000d 0013 - 01  | 32  | 127  | 0      | 32   |                                                                                                                |
+| NAME_15          | Name 15                   |  00 0e - 01 | 0x000e 0014 - 01  | 32  | 127  | 0      | 32   |                                                                                                                |
+| NAME_16          | Name 16                   |  00 0f - 01 | 0x000f 0015 - 01  | 32  | 127  | 0      | 32   |                                                                                                                |
+| CATEGORY         | Category                  |  00 10 - 01 | 0x0010 0016 - 01  | 0   | 50   | 0      | 0    | None, Ac.Piano, Pop-Piano, E.Grand Piano, E.Piano1, E.Piano2, E.Organ, Pipe Organ, Reed Organ, Harpsichord ... |
+| PHRASE           | Reserved                  |  00 11 - 04 | 0x0012 0018 - 02  | 0   | 0    | 0      | 0    |                                                                                                                |
+| LEVEL            | Level                     |  00 15 - 01 | 0x0014 0020 - 01  | 0   | 127  | 0      | 127  |                                                                                                                |
+| PAN              | Pan                       |  00 16 - 01 | 0x0015 0021 - 01  | -64 | 63   | 64     | 0    |                                                                                                                |
+| PRIORITY         | Priority                  |  00 17 - 01 | 0x0018 0024 - 01  | 0   | 1    | 0      | 0    | LAST, LOUDEST                                                                                                  |
+| PIT_CRS          | Tone Coarse Tune          |  00 18 - 01 | 0x0019 0025 - 01  | -48 | 48   | 64     | 0    |                                                                                                                |
+| PIT_FINE         | Tone Fine Tune            |  00 19 - 01 | 0x001a 0026 - 01  | -50 | 50   | 64     | 0    |                                                                                                                |
+| OCTAVE           | Octave Shift              |  00 1a - 01 | 0x001b 0027 - 01  | -3  | 3    | 64     | 0    |                                                                                                                |
+| STRETCH          | Stretch Tune Depth        |  00 1b - 01 | 0x001c 0028 - 01  | 0   | 3    | 0      | 0    | OFF, 1, 2, 3                                                                                                   |
+| ANALOG_FEEL      | Analog Feel               |  00 1c - 01 | 0x001d 0029 - 01  | 0   | 127  | 0      | 0    |                                                                                                                |
+| MONO_POLY        | Mono/Poly                 |  00 1d - 01 | 0x001e 0030 - 01  | 0   | 1    | 0      | 1    | MONO, POLY                                                                                                     |
+| LEGATO_SW        | Legato Switch             |  00 1e - 01 | 0x001f 0031 - 01  | 0   | 1    | 0      | 0    | OFF, ON                                                                                                        |
+| RETRIG_INTVL     | Legato Retrigger Interval |  00 1f - 01 | 0x0020 0032 - 01  | 0   | 13   | 0      | 12   | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ...                                                                               |
+| PORTA_SW         | Portamento Switch         |  00 20 - 01 | 0x0021 0033 - 01  | 0   | 1    | 0      | 0    | OFF, ON                                                                                                        |
+| PORTA_MODE       | Portamento Mode           |  00 21 - 01 | 0x0022 0034 - 01  | 0   | 1    | 0      | 0    | NORMAL, LEGATO                                                                                                 |
+| PORTA_TYPE       | Portamento Type           |  00 22 - 01 | 0x0023 0035 - 01  | 0   | 1    | 0      | 0    | RATE, TIME                                                                                                     |
+| PORTA_START      | Portamento Start          |  00 23 - 01 | 0x0025 0037 - 01  | 0   | 1    | 0      | 0    | PITCH, NOTE                                                                                                    |
+| PORTA_TIME       | Portamento Time           |  00 24 - 04 | 0x0026 0038 - 02  | 0   | 1023 | 0      | 73   |                                                                                                                |
+| BEND_RANGE_UP    | Bend Range Up             |  00 28 - 01 | 0x0028 0040 - 01  | 0   | 48   | 0      | 2    |                                                                                                                |
+| BEND_RANGE_DW    | Bend Range Down           |  00 29 - 01 | 0x0029 0041 - 01  | 0   | 48   | 0      | 2    |                                                                                                                |
+| BEND_MODE        | Bend Mode                 |  00 2a - 01 | 0x002a 0042 - 01  | 0   | 1    | 0      | 0    | NORMAL, CATCH+LAST                                                                                             |
+| SOFT_LEVEL_SENS  | Soft Level Sens           |  00 2b - 01 | 0x002b 0043 - 01  | 0   | 100  | 0      | 0    |                                                                                                                |
+| PHRASE_OCT       | Reserved                  |  00 2c - 02 | 0x002c 0044 - 01  | 0   | 0    | 0      | 0    |                                                                                                                |
+| PHRASE_VEL_RATE  | Reserved                  |  00 2e - 02 | 0x002d 0045 - 01  | 0   | 0    | 0      | 0    |                                                                                                                |
+| PHRASE_VEL_SHIFT | Reserved                  |  00 30 - 02 | 0x002e 0046 - 01  | 0   | 0    | 0      | 0    |                                                                                                                |
+| SYMP_DEPTH       | Reserved                  |  00 32 - 02 | 0x002f 0047 - 01  | 0   | 0    | 0      | 0    |                                                                                                                |
+| PORTA_CRV        | Portamento Curve Type     |  00 34 - 01 | 0x0030 0048 - 01  | 0   | 2    | 0      | 0    |                                                                                                                |
+| PTL_LFO_LOCK     | Partial LFO Phase Lock    |  00 35 - 01 | 0x0031 0049 - 01  | 0   | 1    | 0      | 0    | OFF, ON                                                                                                        |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PCMT_CMN : Total Length Sysex: 00 36 Bytes: 0x0040 64                                                                                                                                                               |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++--------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PCMS_PMT                                                                                                                    |
++--------------------------------------------------------------------------------------------------------------------------------------+
+| ID              | Description         | SXOff - len | Byte offset - len | Min | Max   | Offset | Init | Values                       |
++--------------------------------------------------------------------------------------------------------------------------------------+
+| STRUCT12        | Structure1-2        |  00 00 - 01 | 0x0000 0000 - 01  | 0   | 4     | 0      | 0    | OFF, SYNC, RING, XMOD, XMOD2 |
+| STRUCT34        | Structure3-4        |  00 01 - 01 | 0x0001 0001 - 01  | 0   | 4     | 0      | 0    | OFF, SYNC, RING, XMOD, XMOD2 |
+| RING12_LEVEL    | RING1-2 Level       |  00 02 - 01 | 0x0004 0004 - 01  | 0   | 127   | 0      | 127  |                              |
+| RING34_LEVEL    | RING3-4 Level       |  00 03 - 01 | 0x0005 0005 - 01  | 0   | 127   | 0      | 127  |                              |
+| RING_OSC1_LEVEL | RING OSC1 Level     |  00 04 - 01 | 0x0006 0006 - 01  | 0   | 127   | 0      | 0    |                              |
+| RING_OSC2_LEVEL | RING OSC2 Level     |  00 05 - 01 | 0x0007 0007 - 01  | 0   | 127   | 0      | 0    |                              |
+| RING_OSC3_LEVEL | RING OSC3 Level     |  00 06 - 01 | 0x0008 0008 - 01  | 0   | 127   | 0      | 0    |                              |
+| RING_OSC4_LEVEL | RING OSC4 Level     |  00 07 - 01 | 0x0009 0009 - 01  | 0   | 127   | 0      | 0    |                              |
+| XMOD12_DEPTH    | CrossMod1-2 Depth   |  00 08 - 04 | 0x000c 0012 - 02  | 0   | 10800 | 0      | 1200 |                              |
+| XMOD34_DEPTH    | CrossMod3-4 Depth   |  00 0c - 04 | 0x000e 0014 - 02  | 0   | 10800 | 0      | 1200 |                              |
+| XMOD_OSC1_LEVEL | CrossMod OSC1 Level |  00 10 - 01 | 0x0010 0016 - 01  | 0   | 127   | 0      | 127  |                              |
+| XMOD_OSC2_LEVEL | CrossMod OSC2 Level |  00 11 - 01 | 0x0011 0017 - 01  | 0   | 127   | 0      | 0    |                              |
+| XMOD_OSC3_LEVEL | CrossMod OSC3 Level |  00 12 - 01 | 0x0012 0018 - 01  | 0   | 127   | 0      | 127  |                              |
+| XMOD_OSC4_LEVEL | CrossMod OSC4 Level |  00 13 - 01 | 0x0013 0019 - 01  | 0   | 127   | 0      | 0    |                              |
+| PTL_PHS_LOCK    | Partial Phase Lock  |  00 14 - 01 | 0x0014 0020 - 01  | 0   | 1     | 0      | 1    | OFF, ON                      |
+| XMOD2_12_DEPTH  | CrossMod2 1-2 Depth |  00 15 - 01 | 0x0015 0021 - 01  | 0   | 127   | 0      | 100  |                              |
+| XMOD2_34_DEPTH  | CrossMod2 3-4 Depth |  00 16 - 01 | 0x0016 0022 - 01  | 0   | 127   | 0      | 100  |                              |
++--------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PCMS_PMT : Total Length Sysex: 00 17 Bytes: 0x0024 36                                                                       |
++--------------------------------------------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PCMT_PTL                                                                                                                                                                             |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ID                     | Description                    | SXOff - len | Byte offset - len | Min  | Max   | Offset | Init | Values                                                             |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| LEVEL                  | Level                          |  00 00 - 01 | 0x0000 0000 - 01  | 0    | 127   | 0      | 127  |                                                                    |
+| PIT_CRS                | Coarse Tune                    |  00 01 - 01 | 0x0002 0002 - 01  | -48  | 48    | 64     | 0    |                                                                    |
+| PIT_FINE               | Fine Tune                      |  00 02 - 01 | 0x0003 0003 - 01  | -50  | 50    | 64     | 0    |                                                                    |
+| PIT_RND                | Random Pitch Depth             |  00 03 - 04 | 0x0004 0004 - 02  | 0    | 1200  | 0      | 0    |                                                                    |
+| PAN                    | Pan                            |  00 07 - 01 | 0x0006 0006 - 01  | -64  | 63    | 64     | 0    |                                                                    |
+| PAN_KF                 | Pan Keyfollow                  |  00 08 - 02 | 0x0007 0007 - 01  | -100 | 100   | 128    | 0    |                                                                    |
+| PAN_RND                | Random Pan Depth               |  00 0a - 01 | 0x0008 0008 - 01  | 0    | 63    | 0      | 0    |                                                                    |
+| PAN_ALT                | Alternate Pan Depth            |  00 0b - 01 | 0x0009 0009 - 01  | -64  | 63    | 64     | 0    |                                                                    |
+| ENV_MODE               | Envelope Mode                  |  00 0c - 01 | 0x000a 0010 - 01  | 0    | 1     | 0      | 1    | NO-SUS, SUSTAIN                                                    |
+| DELAY_MODE             | Delay Mode                     |  00 0d - 01 | 0x000b 0011 - 01  | 0    | 3     | 0      | 0    | NORMAL, HOLD, KEYOFF-NORMAL, KEYOFF-DECAY                          |
+| DLY_TIME_SYNC          | DelayTime Sync                 |  00 0e - 01 | 0x000c 0012 - 01  | 0    | 1     | 0      | 0    | OFF, ON                                                            |
+| DLY_TIME_NOTE          | DelayTime (note)               |  00 0f - 01 | 0x000d 0013 - 01  | 0    | 21    | 0      | 12   | 1/64T, 1/64, 1/32T, 1/32, 1/16T, 1/32., 1/16, 1/8T, 1/16., 1/8 ... |
+| DLY_TIME               | DelayTime                      |  00 10 - 04 | 0x000e 0014 - 02  | 0    | 1023  | 0      | 0    |                                                                    |
+| CHO_SEND               | Chorus Send Level              |  00 14 - 01 | 0x0010 0016 - 01  | 0    | 127   | 0      | 0    |                                                                    |
+| REV_SEND               | Reverb Send Level              |  00 15 - 01 | 0x0011 0017 - 01  | 0    | 127   | 0      | 0    |                                                                    |
+| RX_BEND                | Receive Bender                 |  00 16 - 01 | 0x0012 0018 - 01  | 0    | 1     | 0      | 1    | OFF, ON                                                            |
+| RX_EXPR                | Receive Expression             |  00 17 - 01 | 0x0013 0019 - 01  | 0    | 1     | 0      | 1    | OFF, ON                                                            |
+| RX_HOLD                | Receive Hold-1                 |  00 18 - 01 | 0x0014 0020 - 01  | 0    | 1     | 0      | 1    | OFF, ON                                                            |
+| REDAMP_SW              | Redamper Switch                |  00 19 - 01 | 0x0015 0021 - 01  | 0    | 1     | 0      | 0    | OFF, ON                                                            |
+| OUT_ASGN               | Output Assign                  |  00 1a - 01 | 0x0016 0022 - 01  | 0    | 1     | 0      | 1    | DRY, MFX                                                           |
+| WAV_GTYPE              | Wave Group Type                |  00 1b - 01 | 0x0017 0023 - 01  | 0    | 3     | 0      | 0    | INT, EXP, SAMP, MSAMP                                              |
+| WAV_GID                | Wave Group ID                  |  00 1c - 04 | 0x0018 0024 - 02  | 0    | 16383 | 0      | 0    |                                                                    |
+| WAV_NUM_L              | Wave Number L                  |  00 20 - 04 | 0x001a 0026 - 02  | 0    | 16383 | 0      | 0    |                                                                    |
+| WAV_NUM_R              | Wave Number R                  |  00 24 - 04 | 0x001c 0028 - 02  | 0    | 16383 | 0      | 0    |                                                                    |
+| WAV_GAIN               | Gain                           |  00 28 - 01 | 0x001e 0030 - 01  | 0    | 5     | 0      | 3    | -18, -12, -6, 0, +6, +12[dB]                                       |
+| FXM_SW                 | FXM Switch                     |  00 29 - 01 | 0x001f 0031 - 01  | 0    | 1     | 0      | 0    | OFF, ON                                                            |
+| FXM_COLOR              | FXM Color                      |  00 2a - 01 | 0x0020 0032 - 01  | 1    | 4     | 0      | 1    |                                                                    |
+| FXM_DEPTH              | FXM Depth                      |  00 2b - 01 | 0x0021 0033 - 01  | 0    | 16    | 0      | 0    |                                                                    |
+| PIT_KF                 | Pitch Keyfollow                |  00 2c - 04 | 0x0022 0034 - 02  | -200 | 200   | 1024   | 100  |                                                                    |
+| SOFT_EQ_SENS           | Soft EQ Sens                   |  00 30 - 01 | 0x0024 0036 - 01  | 0    | 100   | 0      | 0    |                                                                    |
+| FILTER_TYPE            | TVF Filter Type                |  00 31 - 01 | 0x0025 0037 - 01  | 0    | 6     | 0      | 1    | OFF, LPF, BPF, HPF, PKG, LPF2, LPF3                                |
+| CUTOFF                 | TVF Cutoff Frequency           |  00 32 - 04 | 0x0028 0040 - 02  | 0    | 1023  | 0      | 1023 |                                                                    |
+| CUTOFF_KF              | TVF Cutoff Keyfollow           |  00 36 - 04 | 0x002a 0042 - 02  | -200 | 200   | 1024   | 0    |                                                                    |
+| CUTOFF_VCRV            | TVF Cutoff Velocity Curve      |  00 3a - 01 | 0x002c 0044 - 01  | 0    | 7     | 0      | 1    | FIXED, 1, 2, 3, 4, 5, 6, 7                                         |
+| CUTOFF_VSENS           | TVF Cutoff Velocity Sens       |  00 3b - 02 | 0x002d 0045 - 01  | -100 | 100   | 128    | 0    |                                                                    |
+| RESO                   | TVF Resonance                  |  00 3d - 04 | 0x002e 0046 - 02  | 0    | 1023  | 0      | 0    |                                                                    |
+| RESO_VSENS             | TVF Resonance Velocity Sens    |  00 41 - 02 | 0x0030 0048 - 01  | -100 | 100   | 128    | 0    |                                                                    |
+| BIAS_LEVEL             | Bias Level                     |  00 43 - 02 | 0x0031 0049 - 01  | -100 | 100   | 128    | 0    |                                                                    |
+| BIAS_POS               | Bias Position                  |  00 45 - 01 | 0x0032 0050 - 01  | 0    | 127   | 0      | 60   |                                                                    |
+| BIAS_DIR               | Bias Direction                 |  00 46 - 01 | 0x0033 0051 - 01  | 0    | 3     | 0      | 3    | LOWER, UPPER, LOWER&UPPER, ALL                                     |
+| LEVEL_VCRV             | TVA Level Velocity Curve       |  00 47 - 01 | 0x0034 0052 - 01  | 0    | 7     | 0      | 1    | FIXED, 1, 2, 3, 4, 5, 6, 7                                         |
+| LEVEL_VSENS            | TVA Level Velocity Sens        |  00 48 - 02 | 0x0035 0053 - 01  | -100 | 100   | 128    | 0    |                                                                    |
+| PENV_TKF               | Pitch Env Time Keyfollow       |  00 4a - 02 | 0x0036 0054 - 01  | -100 | 100   | 128    | 0    |                                                                    |
+| FENV_TKF               | TVF Env Time Keyfollow         |  00 4c - 02 | 0x0037 0055 - 01  | -100 | 100   | 128    | 0    |                                                                    |
+| AENV_TKF               | TVA Env Time Keyfollow         |  00 4e - 02 | 0x0038 0056 - 01  | -100 | 100   | 128    | 0    |                                                                    |
+| VIB_PIT_SENS           | Vibrato Pitch Sens             |  00 50 - 02 | 0x0039 0057 - 01  | -100 | 100   | 128    | 10   |                                                                    |
+| VIB_CUT_SENS           | Vibrato Cutoff Sens            |  00 52 - 02 | 0x003a 0058 - 01  | -100 | 100   | 128    | 0    |                                                                    |
+| VIB_AMP_SENS           | Vibrato Level Sens             |  00 54 - 02 | 0x003b 0059 - 01  | -100 | 100   | 128    | 0    |                                                                    |
+| Matrix Control_1_SRC   | Matrix Control 1 Source        |  00 56 - 01 | 0x003c 0060 - 01  | 0    | 108   | 0      | 0    | OFF, CC01, CC02, CC03, CC04, CC05, CC06, CC07, CC08, CC09 ...      |
+| Matrix Control_1_DST1  | Matrix Control 1 Destination 1 |  00 57 - 01 | 0x003d 0061 - 01  | 0    | 48    | 0      | 0    | OFF, PCH, CUT, RES, LEV, PAN, CHO, REV, PIT-LFO1, PIT-LFO2 ...     |
+| Matrix Control_1_SENS1 | Matrix Control 1 Sens 1        |  00 58 - 01 | 0x003e 0062 - 01  | -63  | 63    | 64     | 0    |                                                                    |
+| Matrix Control_1_DST2  | Matrix Control 1 Destination 2 |  00 59 - 01 | 0x003f 0063 - 01  | 0    | 48    | 0      | 0    | OFF, PCH, CUT, RES, LEV, PAN, CHO, REV, PIT-LFO1, PIT-LFO2 ...     |
+| Matrix Control_1_SENS2 | Matrix Control 1 Sens 2        |  00 5a - 01 | 0x0040 0064 - 01  | -63  | 63    | 64     | 0    |                                                                    |
+| Matrix Control_1_DST3  | Matrix Control 1 Destination 3 |  00 5b - 01 | 0x0041 0065 - 01  | 0    | 48    | 0      | 0    | OFF, PCH, CUT, RES, LEV, PAN, CHO, REV, PIT-LFO1, PIT-LFO2 ...     |
+| Matrix Control_1_SENS3 | Matrix Control 1 Sens 3        |  00 5c - 01 | 0x0042 0066 - 01  | -63  | 63    | 64     | 0    |                                                                    |
+| Matrix Control_1_DST4  | Matrix Control 1 Destination 4 |  00 5d - 01 | 0x0043 0067 - 01  | 0    | 48    | 0      | 0    | OFF, PCH, CUT, RES, LEV, PAN, CHO, REV, PIT-LFO1, PIT-LFO2 ...     |
+| Matrix Control_1_SENS4 | Matrix Control 1 Sens 4        |  00 5e - 01 | 0x0044 0068 - 01  | -63  | 63    | 64     | 0    |                                                                    |
+| Matrix Control_2_SRC   | Matrix Control 2 Source        |  00 5f - 01 | 0x0048 0072 - 01  | 0    | 108   | 0      | 0    | OFF, CC01, CC02, CC03, CC04, CC05, CC06, CC07, CC08, CC09 ...      |
+| Matrix Control_2_DST1  | Matrix Control 2 Destination 1 |  00 60 - 01 | 0x0049 0073 - 01  | 0    | 48    | 0      | 0    | OFF, PCH, CUT, RES, LEV, PAN, CHO, REV, PIT-LFO1, PIT-LFO2 ...     |
+| Matrix Control_2_SENS1 | Matrix Control 2 Sens 1        |  00 61 - 01 | 0x004a 0074 - 01  | -63  | 63    | 64     | 0    |                                                                    |
+| Matrix Control_2_DST2  | Matrix Control 2 Destination 2 |  00 62 - 01 | 0x004b 0075 - 01  | 0    | 48    | 0      | 0    | OFF, PCH, CUT, RES, LEV, PAN, CHO, REV, PIT-LFO1, PIT-LFO2 ...     |
+| Matrix Control_2_SENS2 | Matrix Control 2 Sens 2        |  00 63 - 01 | 0x004c 0076 - 01  | -63  | 63    | 64     | 0    |                                                                    |
+| Matrix Control_2_DST3  | Matrix Control 2 Destination 3 |  00 64 - 01 | 0x004d 0077 - 01  | 0    | 48    | 0      | 0    | OFF, PCH, CUT, RES, LEV, PAN, CHO, REV, PIT-LFO1, PIT-LFO2 ...     |
+| Matrix Control_2_SENS3 | Matrix Control 2 Sens 3        |  00 65 - 01 | 0x004e 0078 - 01  | -63  | 63    | 64     | 0    |                                                                    |
+| Matrix Control_2_DST4  | Matrix Control 2 Destination 4 |  00 66 - 01 | 0x004f 0079 - 01  | 0    | 48    | 0      | 0    | OFF, PCH, CUT, RES, LEV, PAN, CHO, REV, PIT-LFO1, PIT-LFO2 ...     |
+| Matrix Control_2_SENS4 | Matrix Control 2 Sens 4        |  00 67 - 01 | 0x0050 0080 - 01  | -63  | 63    | 64     | 0    |                                                                    |
+| Matrix Control_3_SRC   | Matrix Control 3 Source        |  00 68 - 01 | 0x0054 0084 - 01  | 0    | 108   | 0      | 0    | OFF, CC01, CC02, CC03, CC04, CC05, CC06, CC07, CC08, CC09 ...      |
+| Matrix Control_3_DST1  | Matrix Control 3 Destination 1 |  00 69 - 01 | 0x0055 0085 - 01  | 0    | 48    | 0      | 0    | OFF, PCH, CUT, RES, LEV, PAN, CHO, REV, PIT-LFO1, PIT-LFO2 ...     |
+| Matrix Control_3_SENS1 | Matrix Control 3 Sens 1        |  00 6a - 01 | 0x0056 0086 - 01  | -63  | 63    | 64     | 0    |                                                                    |
+| Matrix Control_3_DST2  | Matrix Control 3 Destination 2 |  00 6b - 01 | 0x0057 0087 - 01  | 0    | 48    | 0      | 0    | OFF, PCH, CUT, RES, LEV, PAN, CHO, REV, PIT-LFO1, PIT-LFO2 ...     |
+| Matrix Control_3_SENS2 | Matrix Control 3 Sens 2        |  00 6c - 01 | 0x0058 0088 - 01  | -63  | 63    | 64     | 0    |                                                                    |
+| Matrix Control_3_DST3  | Matrix Control 3 Destination 3 |  00 6d - 01 | 0x0059 0089 - 01  | 0    | 48    | 0      | 0    | OFF, PCH, CUT, RES, LEV, PAN, CHO, REV, PIT-LFO1, PIT-LFO2 ...     |
+| Matrix Control_3_SENS3 | Matrix Control 3 Sens 3        |  00 6e - 01 | 0x005a 0090 - 01  | -63  | 63    | 64     | 0    |                                                                    |
+| Matrix Control_3_DST4  | Matrix Control 3 Destination 4 |  00 6f - 01 | 0x005b 0091 - 01  | 0    | 48    | 0      | 0    | OFF, PCH, CUT, RES, LEV, PAN, CHO, REV, PIT-LFO1, PIT-LFO2 ...     |
+| Matrix Control_3_SENS4 | Matrix Control 3 Sens 4        |  00 70 - 01 | 0x005c 0092 - 01  | -63  | 63    | 64     | 0    |                                                                    |
+| Matrix Control_4_SRC   | Matrix Control 4 Source        |  00 71 - 01 | 0x0060 0096 - 01  | 0    | 108   | 0      | 0    | OFF, CC01, CC02, CC03, CC04, CC05, CC06, CC07, CC08, CC09 ...      |
+| Matrix Control_4_DST1  | Matrix Control 4 Destination 1 |  00 72 - 01 | 0x0061 0097 - 01  | 0    | 48    | 0      | 0    | OFF, PCH, CUT, RES, LEV, PAN, CHO, REV, PIT-LFO1, PIT-LFO2 ...     |
+| Matrix Control_4_SENS1 | Matrix Control 4 Sens 1        |  00 73 - 01 | 0x0062 0098 - 01  | -63  | 63    | 64     | 0    |                                                                    |
+| Matrix Control_4_DST2  | Matrix Control 4 Destination 2 |  00 74 - 01 | 0x0063 0099 - 01  | 0    | 48    | 0      | 0    | OFF, PCH, CUT, RES, LEV, PAN, CHO, REV, PIT-LFO1, PIT-LFO2 ...     |
+| Matrix Control_4_SENS2 | Matrix Control 4 Sens 2        |  00 75 - 01 | 0x0064 0100 - 01  | -63  | 63    | 64     | 0    |                                                                    |
+| Matrix Control_4_DST3  | Matrix Control 4 Destination 3 |  00 76 - 01 | 0x0065 0101 - 01  | 0    | 48    | 0      | 0    | OFF, PCH, CUT, RES, LEV, PAN, CHO, REV, PIT-LFO1, PIT-LFO2 ...     |
+| Matrix Control_4_SENS3 | Matrix Control 4 Sens 3        |  00 77 - 01 | 0x0066 0102 - 01  | -63  | 63    | 64     | 0    |                                                                    |
+| Matrix Control_4_DST4  | Matrix Control 4 Destination 4 |  00 78 - 01 | 0x0067 0103 - 01  | 0    | 48    | 0      | 0    | OFF, PCH, CUT, RES, LEV, PAN, CHO, REV, PIT-LFO1, PIT-LFO2 ...     |
+| Matrix Control_4_SENS4 | Matrix Control 4 Sens 4        |  00 79 - 01 | 0x0068 0104 - 01  | -63  | 63    | 64     | 0    |                                                                    |
+| DAMP_FREE              | Damper Free Note               |  00 7a - 01 | 0x006c 0108 - 01  | 0    | 127   | 0      | 0    | OFF, 1, 2, 3, 4, 5, 6, 7, 8, 9 ...                                 |
+| STEREO_WIDTH           | Stereo Width                   |  00 7b - 01 | 0x006d 0109 - 01  | 0    | 100   | 0      | 100  |                                                                    |
+| STEREO_DETN            | Stereo Detune                  |  00 7c - 01 | 0x006e 0110 - 01  | -50  | 50    | 64     | 0    |                                                                    |
+| DF_DCY_OFST            | Damper Free Decay Offset       |  00 7d - 02 | 0x006f 0111 - 01  | -100 | 100   | 128    | 0    |                                                                    |
+| TEMPO_SYNC             | Wave Tempo Sync                |  00 7f - 01 | 0x0070 0112 - 01  | 0    | 1     | 0      | 0    | OFF, ON                                                            |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PCMT_PTL : Total Length Sysex: 01 00 Bytes: 0x007c 124                                                                                                                               |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PTL_PENV                                                                                                                  |
++------------------------------------------------------------------------------------------------------------------------------------+
+| ID       | Description                | SXOff - len | Byte offset - len | Min  | Max  | Offset | Init | Values                     |
++------------------------------------------------------------------------------------------------------------------------------------+
+| DEPTH    | Pitch Env Depth            |  00 00 - 02 | 0x0000 0000 - 01  | -100 | 100  | 128    | 0    |                            |
+| VSENS    | Pitch Env Velocity Sens    |  00 02 - 02 | 0x0001 0001 - 01  | -100 | 100  | 128    | 0    |                            |
+| T1_VSENS | Pitch Env T1 Velocity Sens |  00 04 - 02 | 0x0002 0002 - 01  | -100 | 100  | 128    | 0    |                            |
+| T4_VSENS | Pitch Env T4 Velocity Sens |  00 06 - 02 | 0x0003 0003 - 01  | -100 | 100  | 128    | 0    |                            |
+| T1       | Pitch Env Time1            |  00 08 - 04 | 0x0004 0004 - 02  | 0    | 1023 | 0      | 0    |                            |
+| T2       | Pitch Env Time2            |  00 0c - 04 | 0x0006 0006 - 02  | 0    | 1023 | 0      | 0    |                            |
+| T3       | Pitch Env Time3            |  00 10 - 04 | 0x0008 0008 - 02  | 0    | 1023 | 0      | 0    |                            |
+| T4       | Pitch Env Time4            |  00 14 - 04 | 0x000a 0010 - 02  | 0    | 1023 | 0      | 0    |                            |
+| L0       | Pitch Env Level0           |  00 18 - 04 | 0x000c 0012 - 02  | -511 | 511  | 1024   | 0    |                            |
+| L1       | Pitch Env Level1           |  00 1c - 04 | 0x000e 0014 - 02  | -511 | 511  | 1024   | 240  |                            |
+| L2       | Pitch Env Level2           |  00 20 - 04 | 0x0010 0016 - 02  | -511 | 511  | 1024   | 240  |                            |
+| L3       | Pitch Env Level3           |  00 24 - 04 | 0x0012 0018 - 02  | -511 | 511  | 1024   | 240  |                            |
+| L4       | Pitch Env Level4           |  00 28 - 04 | 0x0014 0020 - 02  | -511 | 511  | 1024   | 0    |                            |
+| VCRV     | Pitch Env Velocity Curve   |  00 2c - 01 | 0x0016 0022 - 01  | 0    | 7    | 0      | 1    | FIXED, 1, 2, 3, 4, 5, 6, 7 |
++------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PTL_PENV : Total Length Sysex: 00 2d Bytes: 0x0018 24                                                                     |
++------------------------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PTL_FENV                                                                                                                |
++----------------------------------------------------------------------------------------------------------------------------------+
+| ID       | Description              | SXOff - len | Byte offset - len | Min  | Max  | Offset | Init | Values                     |
++----------------------------------------------------------------------------------------------------------------------------------+
+| DEPTH    | TVF Env Depth            |  00 00 - 01 | 0x0000 0000 - 01  | -63  | 63   | 64     | 0    |                            |
+| VCRV     | TVF Env Velocity Curve   |  00 01 - 01 | 0x0001 0001 - 01  | 0    | 7    | 0      | 1    | FIXED, 1, 2, 3, 4, 5, 6, 7 |
+| VSENS    | TVF Env Velocity Sens    |  00 02 - 02 | 0x0002 0002 - 01  | -100 | 100  | 128    | 0    |                            |
+| T1_VSENS | TVF Env T1 Velocity Sens |  00 04 - 02 | 0x0003 0003 - 01  | -100 | 100  | 128    | 0    |                            |
+| T4_VSENS | TVF Env T4 Velocity Sens |  00 06 - 02 | 0x0004 0004 - 01  | -100 | 100  | 128    | 0    |                            |
+| T1       | TVF Env Time1            |  00 08 - 04 | 0x0006 0006 - 02  | 0    | 1023 | 0      | 0    |                            |
+| T2       | TVF Env Time2            |  00 0c - 04 | 0x0008 0008 - 02  | 0    | 1023 | 0      | 0    |                            |
+| T3       | TVF Env Time3            |  00 10 - 04 | 0x000a 0010 - 02  | 0    | 1023 | 0      | 0    |                            |
+| T4       | TVF Env Time4            |  00 14 - 04 | 0x000c 0012 - 02  | 0    | 1023 | 0      | 0    |                            |
+| L0       | TVF Env Level0           |  00 18 - 04 | 0x000e 0014 - 02  | 0    | 1023 | 0      | 0    |                            |
+| L1       | TVF Env Level1           |  00 1c - 04 | 0x0010 0016 - 02  | 0    | 1023 | 0      | 1023 |                            |
+| L2       | TVF Env Level2           |  00 20 - 04 | 0x0012 0018 - 02  | 0    | 1023 | 0      | 1023 |                            |
+| L3       | TVF Env Level3           |  00 24 - 04 | 0x0014 0020 - 02  | 0    | 1023 | 0      | 1023 |                            |
+| L4       | TVF Env Level4           |  00 28 - 04 | 0x0016 0022 - 02  | 0    | 1023 | 0      | 0    |                            |
++----------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PTL_FENV : Total Length Sysex: 00 2c Bytes: 0x0018 24                                                                   |
++----------------------------------------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------------------+
+| Block id:PTL_AENV                                                                                               |
++-----------------------------------------------------------------------------------------------------------------+
+| ID       | Description                 | SXOff - len | Byte offset - len | Min  | Max  | Offset | Init | Values |
++-----------------------------------------------------------------------------------------------------------------+
+| T1_VSENS | TVA Env Time1 Velocity Sens |  00 00 - 02 | 0x0000 0000 - 01  | -100 | 100  | 128    | 0    |        |
+| T4_VSENS | TVA Env Time4 Velocity Sens |  00 02 - 02 | 0x0001 0001 - 01  | -100 | 100  | 128    | 0    |        |
+| T1       | TVA Env Time1               |  00 04 - 04 | 0x0002 0002 - 02  | 0    | 1023 | 0      | 0    |        |
+| T2       | TVA Env Time2               |  00 08 - 04 | 0x0004 0004 - 02  | 0    | 1023 | 0      | 30   |        |
+| T3       | TVA Env Time3               |  00 0c - 04 | 0x0006 0006 - 02  | 0    | 1023 | 0      | 400  |        |
+| T4       | TVA Env Time4               |  00 10 - 04 | 0x0008 0008 - 02  | 0    | 1023 | 0      | 400  |        |
+| L1       | TVA Env Level1              |  00 14 - 04 | 0x000a 0010 - 02  | 0    | 1023 | 0      | 1023 |        |
+| L2       | TVA Env Level2              |  00 18 - 04 | 0x000c 0012 - 02  | 0    | 1023 | 0      | 1023 |        |
+| L3       | TVA Env Level3              |  00 1c - 04 | 0x000e 0014 - 02  | 0    | 1023 | 0      | 1023 |        |
++-----------------------------------------------------------------------------------------------------------------+
+| Block id:PTL_AENV : Total Length Sysex: 00 20 Bytes: 0x0010 16                                                  |
++-----------------------------------------------------------------------------------------------------------------+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PTL_LFO                                                                                                                                                                     |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ID                  | Description               | SXOff - len | Byte offset - len | Min  | Max  | Offset | Init | Values                                                             |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| LFO_1_FORM          | LFO 1 Waveform            |  00 00 - 01 | 0x0000 0000 - 01  | 0    | 10   | 0      | 1    | SIN, TRI, SAW-UP, SAW-DW, SQR, RND, TRP, S&H, CHS, VSIN ...        |
+| LFO_1_RATE_SYNC     | LFO 1 Rate Sync           |  00 01 - 01 | 0x0001 0001 - 01  | 0    | 1    | 0      | 0    | OFF, ON                                                            |
+| LFO_1_RATE_NOTE     | LFO 1 Rate (note)         |  00 02 - 01 | 0x0002 0002 - 01  | 0    | 22   | 0      | 12   | 1/64T, 1/64, 1/32T, 1/32, 1/16T, 1/32., 1/16, 1/8T, 1/16., 1/8 ... |
+| LFO_1_STEP_MAX      | LFO 1 Step Size           |  00 03 - 01 | 0x0003 0003 - 01  | 0    | 15   | 0      | 15   |                                                                    |
+| LFO_1_RATE          | LFO 1 Rate                |  00 04 - 04 | 0x0004 0004 - 02  | 0    | 1023 | 0      | 650  |                                                                    |
+| LFO_1_OFST          | LFO 1 Offset              |  00 08 - 02 | 0x0006 0006 - 01  | -100 | 100  | 128    | 0    |                                                                    |
+| LFO_1_RATE_DETN     | LFO 1 Rate Detune         |  00 0a - 01 | 0x0007 0007 - 01  | 0    | 127  | 0      | 0    |                                                                    |
+| LFO_1_DELAY         | LFO 1 Delay Time          |  00 0b - 04 | 0x0008 0008 - 02  | 0    | 1023 | 0      | 0    |                                                                    |
+| LFO_1_DELAY_KF      | LFO 1 Delay Time Keyfolow |  00 0f - 02 | 0x000a 0010 - 01  | -100 | 100  | 128    | 0    |                                                                    |
+| LFO_1_FADE_MODE     | LFO 1 Fade Mode           |  00 11 - 01 | 0x000b 0011 - 01  | 0    | 3    | 0      | 0    | ON-IN, ON-OUT, OFF-IN, OFF-OUT                                     |
+| LFO_1_FADE          | LFO 1 Fade Time           |  00 12 - 04 | 0x000c 0012 - 02  | 0    | 1023 | 0      | 0    |                                                                    |
+| LFO_1_KEY_TRIG      | LFO 1 Key Trigger         |  00 16 - 01 | 0x000e 0014 - 01  | 0    | 1    | 0      | 0    | OFF, ON                                                            |
+| LFO_1_PIT_DEPTH     | LFO 1 Pitch Depth         |  00 17 - 02 | 0x000f 0015 - 01  | -100 | 100  | 128    | 0    |                                                                    |
+| LFO_1_TVF_DEPTH     | LFO 1 TVF Depth           |  00 19 - 02 | 0x0010 0016 - 01  | -100 | 100  | 128    | 0    |                                                                    |
+| LFO_1_TVA_DEPTH     | LFO 1 TVA Depth           |  00 1b - 02 | 0x0011 0017 - 01  | -100 | 100  | 128    | 0    |                                                                    |
+| LFO_1_PAN_DEPTH     | LFO 1 PAN Depth           |  00 1d - 01 | 0x0012 0018 - 01  | -63  | 63   | 64     | 0    |                                                                    |
+| LFO_1_PHASE_POS     | LFO 1 Phase Position      |  00 1e - 01 | 0x0013 0019 - 01  | 0    | 3    | 0      | 0    |                                                                    |
+| LFO_1_STEP_1        | LFO 1 Step 1              |  00 1f - 02 | 0x0014 0020 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_1_STEP_2        | LFO 1 Step 2              |  00 21 - 02 | 0x0015 0021 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_1_STEP_3        | LFO 1 Step 3              |  00 23 - 02 | 0x0016 0022 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_1_STEP_4        | LFO 1 Step 4              |  00 25 - 02 | 0x0017 0023 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_1_STEP_5        | LFO 1 Step 5              |  00 27 - 02 | 0x0018 0024 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_1_STEP_6        | LFO 1 Step 6              |  00 29 - 02 | 0x0019 0025 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_1_STEP_7        | LFO 1 Step 7              |  00 2b - 02 | 0x001a 0026 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_1_STEP_8        | LFO 1 Step 8              |  00 2d - 02 | 0x001b 0027 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_1_STEP_9        | LFO 1 Step 9              |  00 2f - 02 | 0x001c 0028 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_1_STEP_10       | LFO 1 Step 10             |  00 31 - 02 | 0x001d 0029 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_1_STEP_11       | LFO 1 Step 11             |  00 33 - 02 | 0x001e 0030 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_1_STEP_12       | LFO 1 Step 12             |  00 35 - 02 | 0x001f 0031 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_1_STEP_13       | LFO 1 Step 13             |  00 37 - 02 | 0x0020 0032 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_1_STEP_14       | LFO 1 Step 14             |  00 39 - 02 | 0x0021 0033 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_1_STEP_15       | LFO 1 Step 15             |  00 3b - 02 | 0x0022 0034 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_1_STEP_16       | LFO 1 Step 16             |  00 3d - 02 | 0x0023 0035 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_1_STEP_CURVE_1  | LFO 1 Step Curve 1        |  00 3f - 01 | 0x0024 0036 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_1_STEP_CURVE_2  | LFO 1 Step Curve 2        |  00 40 - 01 | 0x0025 0037 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_1_STEP_CURVE_3  | LFO 1 Step Curve 3        |  00 41 - 01 | 0x0026 0038 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_1_STEP_CURVE_4  | LFO 1 Step Curve 4        |  00 42 - 01 | 0x0027 0039 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_1_STEP_CURVE_5  | LFO 1 Step Curve 5        |  00 43 - 01 | 0x0028 0040 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_1_STEP_CURVE_6  | LFO 1 Step Curve 6        |  00 44 - 01 | 0x0029 0041 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_1_STEP_CURVE_7  | LFO 1 Step Curve 7        |  00 45 - 01 | 0x002a 0042 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_1_STEP_CURVE_8  | LFO 1 Step Curve 8        |  00 46 - 01 | 0x002b 0043 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_1_STEP_CURVE_9  | LFO 1 Step Curve 9        |  00 47 - 01 | 0x002c 0044 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_1_STEP_CURVE_10 | LFO 1 Step Curve 10       |  00 48 - 01 | 0x002d 0045 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_1_STEP_CURVE_11 | LFO 1 Step Curve 11       |  00 49 - 01 | 0x002e 0046 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_1_STEP_CURVE_12 | LFO 1 Step Curve 12       |  00 4a - 01 | 0x002f 0047 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_1_STEP_CURVE_13 | LFO 1 Step Curve 13       |  00 4b - 01 | 0x0030 0048 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_1_STEP_CURVE_14 | LFO 1 Step Curve 14       |  00 4c - 01 | 0x0031 0049 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_1_STEP_CURVE_15 | LFO 1 Step Curve 15       |  00 4d - 01 | 0x0032 0050 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_1_STEP_CURVE_16 | LFO 1 Step Curve 16       |  00 4e - 01 | 0x0033 0051 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_2_FORM          | LFO 2 Waveform            |  00 4f - 01 | 0x0034 0052 - 01  | 0    | 10   | 0      | 1    | SIN, TRI, SAW-UP, SAW-DW, SQR, RND, TRP, S&H, CHS, VSIN ...        |
+| LFO_2_RATE_SYNC     | LFO 2 Rate Sync           |  00 50 - 01 | 0x0035 0053 - 01  | 0    | 1    | 0      | 0    | OFF, ON                                                            |
+| LFO_2_RATE_NOTE     | LFO 2 Rate (note)         |  00 51 - 01 | 0x0036 0054 - 01  | 0    | 22   | 0      | 12   | 1/64T, 1/64, 1/32T, 1/32, 1/16T, 1/32., 1/16, 1/8T, 1/16., 1/8 ... |
+| LFO_2_STEP_MAX      | LFO 2 Step Size           |  00 52 - 01 | 0x0037 0055 - 01  | 0    | 15   | 0      | 15   |                                                                    |
+| LFO_2_RATE          | LFO 2 Rate                |  00 53 - 04 | 0x0038 0056 - 02  | 0    | 1023 | 0      | 650  |                                                                    |
+| LFO_2_OFST          | LFO 2 Offset              |  00 57 - 02 | 0x003a 0058 - 01  | -100 | 100  | 128    | 0    |                                                                    |
+| LFO_2_RATE_DETN     | LFO 2 Rate Detune         |  00 59 - 01 | 0x003b 0059 - 01  | 0    | 127  | 0      | 0    |                                                                    |
+| LFO_2_DELAY         | LFO 2 Delay Time          |  00 5a - 04 | 0x003c 0060 - 02  | 0    | 1023 | 0      | 0    |                                                                    |
+| LFO_2_DELAY_KF      | LFO 2 Delay Time Keyfolow |  00 5e - 02 | 0x003e 0062 - 01  | -100 | 100  | 128    | 0    |                                                                    |
+| LFO_2_FADE_MODE     | LFO 2 Fade Mode           |  00 60 - 01 | 0x003f 0063 - 01  | 0    | 3    | 0      | 0    | ON-IN, ON-OUT, OFF-IN, OFF-OUT                                     |
+| LFO_2_FADE          | LFO 2 Fade Time           |  00 61 - 04 | 0x0040 0064 - 02  | 0    | 1023 | 0      | 0    |                                                                    |
+| LFO_2_KEY_TRIG      | LFO 2 Key Trigger         |  00 65 - 01 | 0x0042 0066 - 01  | 0    | 1    | 0      | 0    | OFF, ON                                                            |
+| LFO_2_PIT_DEPTH     | LFO 2 Pitch Depth         |  00 66 - 02 | 0x0043 0067 - 01  | -100 | 100  | 128    | 0    |                                                                    |
+| LFO_2_TVF_DEPTH     | LFO 2 TVF Depth           |  00 68 - 02 | 0x0044 0068 - 01  | -100 | 100  | 128    | 0    |                                                                    |
+| LFO_2_TVA_DEPTH     | LFO 2 TVA Depth           |  00 6a - 02 | 0x0045 0069 - 01  | -100 | 100  | 128    | 0    |                                                                    |
+| LFO_2_PAN_DEPTH     | LFO 2 PAN Depth           |  00 6c - 01 | 0x0046 0070 - 01  | -63  | 63   | 64     | 0    |                                                                    |
+| LFO_2_PHASE_POS     | LFO 2 Phase Position      |  00 6d - 01 | 0x0047 0071 - 01  | 0    | 3    | 0      | 0    |                                                                    |
+| LFO_2_STEP_1        | LFO 2 Step 1              |  00 6e - 02 | 0x0048 0072 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_2_STEP_2        | LFO 2 Step 2              |  00 70 - 02 | 0x0049 0073 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_2_STEP_3        | LFO 2 Step 3              |  00 72 - 02 | 0x004a 0074 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_2_STEP_4        | LFO 2 Step 4              |  00 74 - 02 | 0x004b 0075 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_2_STEP_5        | LFO 2 Step 5              |  00 76 - 02 | 0x004c 0076 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_2_STEP_6        | LFO 2 Step 6              |  00 78 - 02 | 0x004d 0077 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_2_STEP_7        | LFO 2 Step 7              |  00 7a - 02 | 0x004e 0078 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_2_STEP_8        | LFO 2 Step 8              |  00 7c - 02 | 0x004f 0079 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_2_STEP_9        | LFO 2 Step 9              |  00 7e - 02 | 0x0050 0080 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_2_STEP_10       | LFO 2 Step 10             |  01 00 - 02 | 0x0051 0081 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_2_STEP_11       | LFO 2 Step 11             |  01 02 - 02 | 0x0052 0082 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_2_STEP_12       | LFO 2 Step 12             |  01 04 - 02 | 0x0053 0083 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_2_STEP_13       | LFO 2 Step 13             |  01 06 - 02 | 0x0054 0084 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_2_STEP_14       | LFO 2 Step 14             |  01 08 - 02 | 0x0055 0085 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_2_STEP_15       | LFO 2 Step 15             |  01 0a - 02 | 0x0056 0086 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_2_STEP_16       | LFO 2 Step 16             |  01 0c - 02 | 0x0057 0087 - 01  | -72  | 72   | 128    | 0    |                                                                    |
+| LFO_2_STEP_CURVE_1  | LFO 2 Step Curve 1        |  01 0e - 01 | 0x0058 0088 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_2_STEP_CURVE_2  | LFO 2 Step Curve 2        |  01 0f - 01 | 0x0059 0089 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_2_STEP_CURVE_3  | LFO 2 Step Curve 3        |  01 10 - 01 | 0x005a 0090 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_2_STEP_CURVE_4  | LFO 2 Step Curve 4        |  01 11 - 01 | 0x005b 0091 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_2_STEP_CURVE_5  | LFO 2 Step Curve 5        |  01 12 - 01 | 0x005c 0092 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_2_STEP_CURVE_6  | LFO 2 Step Curve 6        |  01 13 - 01 | 0x005d 0093 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_2_STEP_CURVE_7  | LFO 2 Step Curve 7        |  01 14 - 01 | 0x005e 0094 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_2_STEP_CURVE_8  | LFO 2 Step Curve 8        |  01 15 - 01 | 0x005f 0095 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_2_STEP_CURVE_9  | LFO 2 Step Curve 9        |  01 16 - 01 | 0x0060 0096 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_2_STEP_CURVE_10 | LFO 2 Step Curve 10       |  01 17 - 01 | 0x0061 0097 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_2_STEP_CURVE_11 | LFO 2 Step Curve 11       |  01 18 - 01 | 0x0062 0098 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_2_STEP_CURVE_12 | LFO 2 Step Curve 12       |  01 19 - 01 | 0x0063 0099 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_2_STEP_CURVE_13 | LFO 2 Step Curve 13       |  01 1a - 01 | 0x0064 0100 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_2_STEP_CURVE_14 | LFO 2 Step Curve 14       |  01 1b - 01 | 0x0065 0101 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_2_STEP_CURVE_15 | LFO 2 Step Curve 15       |  01 1c - 01 | 0x0066 0102 - 01  | 0    | 36   | 0      | 1    |                                                                    |
+| LFO_2_STEP_CURVE_16 | LFO 2 Step Curve 16       |  01 1d - 01 | 0x0067 0103 - 01  | 0    | 36   | 0      | 1    |                                                                    |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PTL_LFO : Total Length Sysex: 01 1e Bytes: 0x0068 104                                                                                                                       |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++------------------------------------------------------------------------------------------------------------------------+
+| Block id:PTL_EQ                                                                                                        |
++------------------------------------------------------------------------------------------------------------------------+
+| ID       | Description       | SXOff - len | Byte offset - len | Min  | Max   | Offset | Init | Values                 |
++------------------------------------------------------------------------------------------------------------------------+
+| LO_GAIN  | EQ Low Gain       |  00 00 - 04 | 0x0000 0000 - 02  | -240 | 240   | 1024   | 0    | -24.0 - +24.0 [EQGAIN] |
+| MID_GAIN | EQ Mid Gain       |  00 04 - 04 | 0x0002 0002 - 02  | -240 | 240   | 1024   | 0    | -24.0 - +24.0 [EQGAIN] |
+| HI_GAIN  | EQ High Gain      |  00 08 - 04 | 0x0004 0004 - 02  | -240 | 240   | 1024   | 0    | -24.0 - +24.0 [EQGAIN] |
+| LO_FREQ  | EQ Low Frequency  |  00 0c - 04 | 0x0006 0006 - 02  | 20   | 16000 | 0      | 200  |                        |
+| MID_FREQ | EQ Mid Frequency  |  00 10 - 04 | 0x0008 0008 - 02  | 20   | 16000 | 0      | 1000 |                        |
+| HI_FREQ  | EQ High Frequency |  00 14 - 04 | 0x000a 0010 - 02  | 20   | 16000 | 0      | 2000 |                        |
+| MID_Q    | EQ Mid Q          |  00 18 - 02 | 0x000c 0012 - 01  | 5    | 160   | 0      | 10   | 0.5 - 16.0 [EQQ]       |
+| SW       | EQ Switch         |  00 1a - 01 | 0x000d 0013 - 01  | 0    | 1     | 0      | 0    | OFF, ON                |
++------------------------------------------------------------------------------------------------------------------------+
+| Block id:PTL_EQ : Total Length Sysex: 00 1b Bytes: 0x0010 16                                                           |
++------------------------------------------------------------------------------------------------------------------------+
+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PCMS_CMN                                                                                                                          |
++--------------------------------------------------------------------------------------------------------------------------------------------+
+| ID                 | Description              | SXOff - len | Byte offset - len | Min | Max | Offset | Init | Values                       |
++--------------------------------------------------------------------------------------------------------------------------------------------+
+| UNISON_SW          | Unison Switch            |  00 00 - 01 | 0x0000 0000 - 01  | 0   | 1   | 0      | 0    | OFF, ON                      |
+| UNISON_SIZE        | Unison Size              |  00 01 - 01 | 0x0001 0001 - 01  | 2   | 8   | 0      | 4    |                              |
+| UNISON_DETN        | Unison Detune            |  00 02 - 01 | 0x0002 0002 - 01  | 0   | 100 | 0      | 20   |                              |
+| BEND_RANGE_FINE_UP | Bend Range Fine Up       |  00 03 - 01 | 0x0004 0004 - 01  | 0   | 100 | 0      | 0    |                              |
+| BEND_RANGE_FINE_DW | Bend Range Fine Down     |  00 04 - 01 | 0x0005 0005 - 01  | 0   | 100 | 0      | 0    |                              |
+| RND_PIT_VAL        | Pitch Drift              |  00 05 - 02 | 0x0006 0006 - 01  | 0   | 255 | 0      | 0    |                              |
+| RND_PIT_NUM        | Pitch Drift Cycle Number |  00 07 - 01 | 0x0007 0007 - 01  | 0   | 8   | 0      | 0    | FREE, 1, 2, 3, 4, 5, 6, 7, 8 |
+| CONDITION          | Condition                |  00 08 - 01 | 0x0008 0008 - 01  | 0   | 100 | 0      | 0    |                              |
++--------------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PCMS_CMN : Total Length Sysex: 00 09 Bytes: 0x0014 20                                                                             |
++--------------------------------------------------------------------------------------------------------------------------------------------+
+
++--------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PCMT_PMT                                                                                                              |
++--------------------------------------------------------------------------------------------------------------------------------+
+| ID              | Description           | SXOff - len | Byte offset - len | Min | Max | Offset | Init | Values                 |
++--------------------------------------------------------------------------------------------------------------------------------+
+| VEL_CTRL        | Velocity Control      |  00 00 - 01 | 0x0000 0000 - 01  | 0   | 3   | 0      | 1    | OFF, ON, RANDOM, CYCLE |
+| PMT_LEVEL_CRV   | PMT Level Curve       |  00 01 - 01 | 0x0001 0001 - 01  | 0   | 1   | 0      | 0    | EXP, LINEAR            |
+| PMT_1_PTL_SW    | PMT 1 Partial Switch  |  00 02 - 01 | 0x0004 0004 - 01  | 0   | 1   | 0      | 0    | OFF, ON                |
+| PMT_1_KRANGE_LO | PMT 1 KeyRange Lower  |  00 03 - 01 | 0x0008 0008 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_1_KRANGE_UP | PMT 1 KeyRange Upper  |  00 04 - 01 | 0x0009 0009 - 01  | 0   | 127 | 0      | 127  |                        |
+| PMT_1_KFADE_LO  | PMT 1 KeyFade Lower   |  00 05 - 01 | 0x000a 0010 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_1_KFADE_UP  | PMT 1 KeyFade Upper   |  00 06 - 01 | 0x000b 0011 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_1_VRANGE_LO | PMT 1 VeloRange Lower |  00 07 - 01 | 0x000c 0012 - 01  | 1   | 127 | 0      | 1    |                        |
+| PMT_1_VRANGE_UP | PMT 1 VeloRange Upper |  00 08 - 01 | 0x000d 0013 - 01  | 1   | 127 | 0      | 127  |                        |
+| PMT_1_VFADE_LO  | PMT 1 VeloFade Lower  |  00 09 - 01 | 0x000e 0014 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_1_VFADE_UP  | PMT 1 VeloFade Upper  |  00 0a - 01 | 0x000f 0015 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_2_PTL_SW    | PMT 2 Partial Switch  |  00 0b - 01 | 0x0010 0016 - 01  | 0   | 1   | 0      | 0    | OFF, ON                |
+| PMT_2_KRANGE_LO | PMT 2 KeyRange Lower  |  00 0c - 01 | 0x0014 0020 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_2_KRANGE_UP | PMT 2 KeyRange Upper  |  00 0d - 01 | 0x0015 0021 - 01  | 0   | 127 | 0      | 127  |                        |
+| PMT_2_KFADE_LO  | PMT 2 KeyFade Lower   |  00 0e - 01 | 0x0016 0022 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_2_KFADE_UP  | PMT 2 KeyFade Upper   |  00 0f - 01 | 0x0017 0023 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_2_VRANGE_LO | PMT 2 VeloRange Lower |  00 10 - 01 | 0x0018 0024 - 01  | 1   | 127 | 0      | 1    |                        |
+| PMT_2_VRANGE_UP | PMT 2 VeloRange Upper |  00 11 - 01 | 0x0019 0025 - 01  | 1   | 127 | 0      | 127  |                        |
+| PMT_2_VFADE_LO  | PMT 2 VeloFade Lower  |  00 12 - 01 | 0x001a 0026 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_2_VFADE_UP  | PMT 2 VeloFade Upper  |  00 13 - 01 | 0x001b 0027 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_3_PTL_SW    | PMT 3 Partial Switch  |  00 14 - 01 | 0x001c 0028 - 01  | 0   | 1   | 0      | 0    | OFF, ON                |
+| PMT_3_KRANGE_LO | PMT 3 KeyRange Lower  |  00 15 - 01 | 0x0020 0032 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_3_KRANGE_UP | PMT 3 KeyRange Upper  |  00 16 - 01 | 0x0021 0033 - 01  | 0   | 127 | 0      | 127  |                        |
+| PMT_3_KFADE_LO  | PMT 3 KeyFade Lower   |  00 17 - 01 | 0x0022 0034 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_3_KFADE_UP  | PMT 3 KeyFade Upper   |  00 18 - 01 | 0x0023 0035 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_3_VRANGE_LO | PMT 3 VeloRange Lower |  00 19 - 01 | 0x0024 0036 - 01  | 1   | 127 | 0      | 1    |                        |
+| PMT_3_VRANGE_UP | PMT 3 VeloRange Upper |  00 1a - 01 | 0x0025 0037 - 01  | 1   | 127 | 0      | 127  |                        |
+| PMT_3_VFADE_LO  | PMT 3 VeloFade Lower  |  00 1b - 01 | 0x0026 0038 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_3_VFADE_UP  | PMT 3 VeloFade Upper  |  00 1c - 01 | 0x0027 0039 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_4_PTL_SW    | PMT 4 Partial Switch  |  00 1d - 01 | 0x0028 0040 - 01  | 0   | 1   | 0      | 0    | OFF, ON                |
+| PMT_4_KRANGE_LO | PMT 4 KeyRange Lower  |  00 1e - 01 | 0x002c 0044 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_4_KRANGE_UP | PMT 4 KeyRange Upper  |  00 1f - 01 | 0x002d 0045 - 01  | 0   | 127 | 0      | 127  |                        |
+| PMT_4_KFADE_LO  | PMT 4 KeyFade Lower   |  00 20 - 01 | 0x002e 0046 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_4_KFADE_UP  | PMT 4 KeyFade Upper   |  00 21 - 01 | 0x002f 0047 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_4_VRANGE_LO | PMT 4 VeloRange Lower |  00 22 - 01 | 0x0030 0048 - 01  | 1   | 127 | 0      | 1    |                        |
+| PMT_4_VRANGE_UP | PMT 4 VeloRange Upper |  00 23 - 01 | 0x0031 0049 - 01  | 1   | 127 | 0      | 127  |                        |
+| PMT_4_VFADE_LO  | PMT 4 VeloFade Lower  |  00 24 - 01 | 0x0032 0050 - 01  | 0   | 127 | 0      | 0    |                        |
+| PMT_4_VFADE_UP  | PMT 4 VeloFade Upper  |  00 25 - 01 | 0x0033 0051 - 01  | 0   | 127 | 0      | 0    |                        |
++--------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PCMT_PMT : Total Length Sysex: 00 26 Bytes: 0x0034 52                                                                 |
++--------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PCMS_PTL                                                                                                                                                 |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ID               | Description                 | SXOff - len | Byte offset - len | Min | Max   | Offset | Init | Values                                           |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| OSC_TYPE         | OSC Type                    |  00 00 - 01 | 0x0000 0000 - 01  | 0   | 4     | 0      | 0    | PCM, VA, PCM-Sync, SuperSAW, Noise               |
+| VA_FORM          | VA Waveform                 |  00 01 - 01 | 0x0001 0001 - 01  | 0   | 8     | 0      | 0    | SAW, SQR, TRI, SIN, RAMP, JUNO, TRI2, TRI3, SIN2 |
+| SYNC_WAV_NUM     | PCM-Sync Wave Number        |  00 02 - 04 | 0x0002 0002 - 02  | 0   | 16383 | 0      | 0    |                                                  |
+| PW               | Pulse Width                 |  00 06 - 01 | 0x0004 0004 - 01  | 0   | 127   | 0      | 64   |                                                  |
+| PWM_DEPTH        | PWM Depth                   |  00 07 - 01 | 0x0005 0005 - 01  | -63 | 63    | 64     | 0    |                                                  |
+| SSAW_DETUNE      | SuperSAW Detune             |  00 08 - 01 | 0x0006 0006 - 01  | 0   | 127   | 0      | 64   |                                                  |
+| CLICK_TYPE       | Click Type                  |  00 09 - 01 | 0x0007 0007 - 01  | 0   | 3     | 0      | 2    | SOFT, HARD, NATURAL, OFF                         |
+| HPF_CUTOFF       | HPF Cutoff                  |  00 0a - 04 | 0x0008 0008 - 02  | 0   | 1023  | 0      | 0    |                                                  |
+| FILTER_TYPE      | Filter Type                 |  00 0e - 01 | 0x000a 0010 - 01  | 0   | 1     | 0      | 0    | TVF, VCF                                         |
+| FILTER_SLOPE     | Filter Slope                |  00 0f - 01 | 0x000b 0011 - 01  | 0   | 2     | 0      | 0    | -12, -18, -24 [dB/Oct]                           |
+| ADSR_ENV_SW      | ADSREnv Switch              |  00 10 - 01 | 0x000c 0012 - 01  | 0   | 1     | 0      | 0    | OFF, ON                                          |
+| FAT              | Fat                         |  00 11 - 01 | 0x000d 0013 - 01  | 0   | 127   | 0      | 64   |                                                  |
+| VCF_TYPE         | VCF Type                    |  00 12 - 01 | 0x000e 0014 - 01  | 0   | 3     | 0      | 0    | VCF1, JP, MG, P5                                 |
+| OSC_ATT          | OSC Attenuator              |  00 13 - 02 | 0x000f 0015 - 01  | 0   | 255   | 0      | 255  |                                                  |
+| CUTOFF_KF_BP     | Cutoff Keyfollow Base Point |  00 15 - 01 | 0x0010 0016 - 01  | 0   | 127   | 0      | 60   |                                                  |
+| VA_INVERT_SW     | VA Waveform Invert Switch   |  00 16 - 01 | 0x0011 0017 - 01  | 0   | 1     | 0      | 0    | OFF, ON                                          |
+| FENV_FINE_DEPTH  | TVF Env Fine Depth          |  00 17 - 01 | 0x0012 0018 - 01  | -63 | 63    | 64     | 0    |                                                  |
+| PENV_LFO_TRIG_SW | PENV LFO Trigger Switch     |  00 18 - 01 | 0x0013 0019 - 01  | 0   | 1     | 0      | 0    | OFF, ON                                          |
+| FENV_LFO_TRIG_SW | FENV LFO Trigger Switch     |  00 19 - 01 | 0x0014 0020 - 01  | 0   | 1     | 0      | 0    | OFF, ON                                          |
+| AENV_LFO_TRIG_SW | AENV LFO Trigger Switch     |  00 1a - 01 | 0x0015 0021 - 01  | 0   | 1     | 0      | 0    | OFF, ON                                          |
+| PITCH_DOWN_DEPTH | Pitch Down Depth            |  00 1b - 01 | 0x0016 0022 - 01  | 0   | 120   | 0      | 0    |                                                  |
+| VCF_GC           | VCF Gain Correction         |  00 1c - 01 | 0x0017 0023 - 01  | 0   | 127   | 0      | 0    |                                                  |
+| VA_INIT_PHASE    | VA Init Phase               |  00 1d - 01 | 0x0018 0024 - 01  | 0   | 72    | 0      | 0    |                                                  |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:PCMS_PTL : Total Length Sysex: 00 1e Bytes: 0x0024 36                                                                                                    |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:MFX                                                                                                                                                                                            |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ID         | Description           | SXOff - len | Byte offset - len | Min    | Max   | Offset | Init | Values                                                                                          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| mfxType    | Type                  |  00 00 - 01 | 0x0000 0000 - 01  | 0      | 93    | 0      | 0    |                                                                                                 |
+| mfxSwitch  | MFX Switch            |  00 01 - 01 | 0x0001 0001 - 01  | 0      | 1     | 0      | 1    |                                                                                                 |
+| choSend    | MFX Chorus Send Level |  00 02 - 01 | 0x0002 0002 - 01  | 0      | 127   | 0      | 127  |                                                                                                 |
+| revSend    | MFX Reverb Send Level |  00 03 - 01 | 0x0003 0003 - 01  | 0      | 127   | 0      | 127  |                                                                                                 |
+| ctrlSrc1   | MFX CtrlSrc 1         |  00 04 - 01 | 0x0004 0004 - 01  | 0      | 100   | 0      | 0    | OFF, MOD:CC01, BRETH:CC02, CC03, FOOT:CC04, PTIME:CC05, DENT:CC06, VOL:CC07, BAL:CC08, CC09 ... |
+| ctrlSens1  | MFX CtrlSens 1        |  00 05 - 01 | 0x0005 0005 - 01  | -63    | 63    | 64     | 0    |                                                                                                 |
+| ctrlSrc2   | MFX CtrlSrc 2         |  00 06 - 01 | 0x0006 0006 - 01  | 0      | 100   | 0      | 0    | OFF, MOD:CC01, BRETH:CC02, CC03, FOOT:CC04, PTIME:CC05, DENT:CC06, VOL:CC07, BAL:CC08, CC09 ... |
+| ctrlSens2  | MFX CtrlSens 2        |  00 07 - 01 | 0x0007 0007 - 01  | -63    | 63    | 64     | 0    |                                                                                                 |
+| ctrlSrc3   | MFX CtrlSrc 3         |  00 08 - 01 | 0x0008 0008 - 01  | 0      | 100   | 0      | 0    | OFF, MOD:CC01, BRETH:CC02, CC03, FOOT:CC04, PTIME:CC05, DENT:CC06, VOL:CC07, BAL:CC08, CC09 ... |
+| ctrlSens3  | MFX CtrlSens 3        |  00 09 - 01 | 0x0009 0009 - 01  | -63    | 63    | 64     | 0    |                                                                                                 |
+| ctrlSrc4   | MFX CtrlSrc 4         |  00 0a - 01 | 0x000a 0010 - 01  | 0      | 100   | 0      | 0    | OFF, MOD:CC01, BRETH:CC02, CC03, FOOT:CC04, PTIME:CC05, DENT:CC06, VOL:CC07, BAL:CC08, CC09 ... |
+| ctrlSens4  | MFX CtrlSens 4        |  00 0b - 01 | 0x000b 0011 - 01  | -63    | 63    | 64     | 0    |                                                                                                 |
+| ctrlAsgn_1 | MFX CtrlAsgn 1        |  00 0c - 01 | 0x000c 0012 - 01  | 0      | 11    | 0      | 0    |                                                                                                 |
+| ctrlAsgn_2 | MFX CtrlAsgn 2        |  00 0d - 01 | 0x000d 0013 - 01  | 0      | 11    | 0      | 0    |                                                                                                 |
+| ctrlAsgn_3 | MFX CtrlAsgn 3        |  00 0e - 01 | 0x000e 0014 - 01  | 0      | 11    | 0      | 0    |                                                                                                 |
+| ctrlAsgn_4 | MFX CtrlAsgn 4        |  00 0f - 01 | 0x000f 0015 - 01  | 0      | 11    | 0      | 0    |                                                                                                 |
+| param_1    | MFX Parameter 1       |  00 10 - 04 | 0x0010 0016 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_2    | MFX Parameter 2       |  00 14 - 04 | 0x0012 0018 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_3    | MFX Parameter 3       |  00 18 - 04 | 0x0014 0020 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_4    | MFX Parameter 4       |  00 1c - 04 | 0x0016 0022 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_5    | MFX Parameter 5       |  00 20 - 04 | 0x0018 0024 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_6    | MFX Parameter 6       |  00 24 - 04 | 0x001a 0026 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_7    | MFX Parameter 7       |  00 28 - 04 | 0x001c 0028 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_8    | MFX Parameter 8       |  00 2c - 04 | 0x001e 0030 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_9    | MFX Parameter 9       |  00 30 - 04 | 0x0020 0032 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_10   | MFX Parameter 10      |  00 34 - 04 | 0x0022 0034 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_11   | MFX Parameter 11      |  00 38 - 04 | 0x0024 0036 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_12   | MFX Parameter 12      |  00 3c - 04 | 0x0026 0038 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_13   | MFX Parameter 13      |  00 40 - 04 | 0x0028 0040 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_14   | MFX Parameter 14      |  00 44 - 04 | 0x002a 0042 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_15   | MFX Parameter 15      |  00 48 - 04 | 0x002c 0044 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_16   | MFX Parameter 16      |  00 4c - 04 | 0x002e 0046 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_17   | MFX Parameter 17      |  00 50 - 04 | 0x0030 0048 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_18   | MFX Parameter 18      |  00 54 - 04 | 0x0032 0050 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_19   | MFX Parameter 19      |  00 58 - 04 | 0x0034 0052 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_20   | MFX Parameter 20      |  00 5c - 04 | 0x0036 0054 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_21   | MFX Parameter 21      |  00 60 - 04 | 0x0038 0056 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_22   | MFX Parameter 22      |  00 64 - 04 | 0x003a 0058 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_23   | MFX Parameter 23      |  00 68 - 04 | 0x003c 0060 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_24   | MFX Parameter 24      |  00 6c - 04 | 0x003e 0062 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_25   | MFX Parameter 25      |  00 70 - 04 | 0x0040 0064 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_26   | MFX Parameter 26      |  00 74 - 04 | 0x0042 0066 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_27   | MFX Parameter 27      |  00 78 - 04 | 0x0044 0068 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_28   | MFX Parameter 28      |  00 7c - 04 | 0x0046 0070 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_29   | MFX Parameter 29      |  01 00 - 04 | 0x0048 0072 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_30   | MFX Parameter 30      |  01 04 - 04 | 0x004a 0074 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_31   | MFX Parameter 31      |  01 08 - 04 | 0x004c 0076 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
+| param_32   | MFX Parameter 32      |  01 0c - 04 | 0x004e 0078 - 02  | -20000 | 20000 | 32768  | 0    |                                                                                                 |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:MFX : Total Length Sysex: 01 10 Bytes: 0x0054 84                                                                                                                                               |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:MDLSYN0                                                                                                                                                                         |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ID          | Description                | SXOff - len | Byte offset - len | Min   | Max   | Offset | Init | Values                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| MODEL       | Model                      |  00 00 - 02 | 0x0000 0000 - 01  | 0     | 5     | 0      | 0    | ---, JP8, JX8P, JUNO106, SH101, JUNO60                                      |
+| LFOWAVE     | LFO WAVE FORM              |  00 02 - 01 | 0x0001 0001 - 01  | 0     | 10    | 0      | 0    | SIN, TRI, SAW-UP, SAW-DW, SQR, RND, TRP, S&H, CHS, VSIN ...                 |
+| LFORATE     | LFO RATE                   |  00 03 - 04 | 0x0002 0002 - 02  | 0     | 1023  | 0      | 0    |                                                                             |
+| LFODLY      | LFO DELAY TIME             |  00 07 - 04 | 0x0004 0004 - 02  | 0     | 1023  | 0      | 0    |                                                                             |
+| OSC1MOD     | OSC1 MOD                   |  00 0b - 02 | 0x0006 0006 - 01  | -100  | 100   | 128    | 0    |                                                                             |
+| OSC1PENV    | OSC1 PITCH ENV DEPTH       |  00 0d - 02 | 0x0007 0007 - 01  | -100  | 100   | 128    | 0    |                                                                             |
+| OSC1DEST    | OSC1 DEST SELECT           |  00 0f - 01 | 0x0008 0008 - 01  | 0     | 2     | 0      | 0    | OSC1, BOTH, OSC2                                                            |
+| OSC1ENVS    | OSC1 ENVT SELECT           |  00 10 - 01 | 0x0009 0009 - 01  | 0     | 1     | 0      | 0    | 1, 2                                                                        |
+| OSC1WAVE    | OSC1 WAVE FORM             |  00 11 - 04 | 0x000a 0010 - 02  | 0     | 27    | 0      | 0    | PW, SAW, SUB1OCT1, SUB2OCT1, SUB2OCT2, NOISE, PW, SAW, SUB1OCT1, NOISE ...  |
+| OSC1FEET    | OSC1 FEET                  |  00 15 - 01 | 0x000c 0012 - 01  | 0     | 4     | 0      | 0    | 32', 16', 8', 4', 2'                                                        |
+| OSC1COARSE  | OSC1 COARSE TUNE           |  00 16 - 01 | 0x000d 0013 - 01  | -48   | 48    | 64     | 0    |                                                                             |
+| OSC1FINE    | OSC1 FINE TUNE             |  00 17 - 01 | 0x000e 0014 - 01  | -50   | 50    | 64     | 0    |                                                                             |
+| OSC1LOWFREQ | OSC1 LOW FREQ PITCH        |  00 18 - 01 | 0x000f 0015 - 01  | 0     | 127   | 0      | 0    |                                                                             |
+| OSC1MODE    | OSC1 MODE                  |  00 19 - 01 | 0x0010 0016 - 01  | 0     | 1     | 0      | 0    | NORMAL, LOW FREQ                                                            |
+| OSC1PWM     | OSC1 PWM DEPTH             |  00 1a - 01 | 0x0011 0017 - 01  | -63   | 63    | 64     | 0    |                                                                             |
+| OSC1PLSW    | OSC1 PULSE WIDTH           |  00 1b - 01 | 0x0012 0018 - 01  | 0     | 127   | 0      | 0    |                                                                             |
+| OSC1PLSM    | OSC1 PULSE WIDTH MODE      |  00 1c - 01 | 0x0013 0019 - 01  | 0     | 2     | 0      | 0    | LFO, MANUAL, ENV                                                            |
+| OSC2MOD     | OSC2 MOD                   |  00 1d - 02 | 0x0014 0020 - 01  | -100  | 100   | 128    | 0    |                                                                             |
+| OSC2PENV    | OSC2 PITCH ENV DEPTH       |  00 1f - 02 | 0x0015 0021 - 01  | -100  | 100   | 128    | 0    |                                                                             |
+| OSC2WAVE    | OSC2 WAVE FORM             |  00 21 - 04 | 0x0016 0022 - 02  | 0     | 27    | 0      | 0    | PW, SAW, SUB1OCT1, SUB2OCT1, SUB2OCT2, NOISE, PW, SAW, SUB1OCT1, NOISE ...  |
+| OSC2FEET    | OSC2 FEET                  |  00 25 - 01 | 0x0018 0024 - 01  | 0     | 4     | 0      | 0    | 32', 16', 8', 4', 2'                                                        |
+| OSC2COARSE  | OSC2 COARSE TUNE           |  00 26 - 01 | 0x0019 0025 - 01  | -48   | 48    | 64     | 0    |                                                                             |
+| OSC2FINE    | OSC2 FINE TUNE             |  00 27 - 01 | 0x001a 0026 - 01  | -50   | 50    | 64     | 0    |                                                                             |
+| OSC2LOWFREQ | OSC2 LOW FREQ PITCH        |  00 28 - 01 | 0x001b 0027 - 01  | 0     | 127   | 0      | 0    |                                                                             |
+| OSC2MODE    | OSC2 MODE                  |  00 29 - 01 | 0x001c 0028 - 01  | 0     | 1     | 0      | 0    | NORMAL, LO FREQ                                                             |
+| OSC2PW      | OSC2 PULSE WIDTH           |  00 2a - 01 | 0x001d 0029 - 01  | 0     | 127   | 0      | 0    |                                                                             |
+| OSC3MOD     | OSC3 MOD                   |  00 2b - 02 | 0x001e 0030 - 01  | -100  | 100   | 128    | 0    |                                                                             |
+| OSC3PENV    | OSC3 PITCH ENV DEPTH       |  00 2d - 02 | 0x001f 0031 - 01  | -100  | 100   | 128    | 0    |                                                                             |
+| OSC3WAVE    | OSC3 WAVE FORM             |  00 2f - 04 | 0x0020 0032 - 02  | 0     | 27    | 0      | 0    | PW, SAW, SQR 1OCT, SQR 2OCT, SH SubOSC, NOISE, PW, SAW, SQR 1OCT, NOISE ... |
+| OSC3FEET    | OSC3 FEET                  |  00 33 - 01 | 0x0022 0034 - 01  | 0     | 4     | 0      | 0    | 32', 16', 8', 4', 2'                                                        |
+| OSC3COARSE  | OSC3 COARSE TUNE           |  00 34 - 01 | 0x0023 0035 - 01  | -48   | 48    | 64     | 0    |                                                                             |
+| OSC3FINE    | OSC3 FINE TUNE             |  00 35 - 01 | 0x0024 0036 - 01  | -50   | 50    | 64     | 0    |                                                                             |
+| OSC3LOWFREQ | OSC3 LOW FREQ PITCH        |  00 36 - 01 | 0x0025 0037 - 01  | 0     | 127   | 0      | 0    |                                                                             |
+| OSC3MODE    | OSC3 MODE                  |  00 37 - 01 | 0x0026 0038 - 01  | 0     | 1     | 0      | 0    | NORMAL, LO FREQ                                                             |
+| NOISE       | NOISE                      |  00 38 - 01 | 0x0027 0039 - 01  | 0     | 1     | 0      | 0    | WHITE, PINK                                                                 |
+| MODDPTH     | MOD DEPTH                  |  00 39 - 04 | 0x0028 0040 - 02  | 0     | 10800 | 0      | 0    |                                                                             |
+| MODMODE     | MOD MODE                   |  00 3d - 01 | 0x002a 0042 - 01  | 0     | 3     | 0      | 0    | OFF, SYNC, RING, X-MOD                                                      |
+| MXROSC1     | OSC1 LEVEL                 |  00 3e - 02 | 0x002b 0043 - 01  | 0     | 255   | 0      | 0    |                                                                             |
+| MXROSC2     | OSC2 LEVEL                 |  00 40 - 02 | 0x002c 0044 - 01  | 0     | 255   | 0      | 0    |                                                                             |
+| MXROSC3     | OSC3 LEVEL                 |  00 42 - 02 | 0x002d 0045 - 01  | 0     | 255   | 0      | 0    |                                                                             |
+| MXRNOISE    | NOISE LEVEL                |  00 44 - 02 | 0x002e 0046 - 01  | 0     | 255   | 0      | 0    |                                                                             |
+| MXRENVD     | MIXER ENV DEPTH            |  00 46 - 01 | 0x002f 0047 - 01  | -63   | 63    | 64     | 0    |                                                                             |
+| MXRENVS     | MIXER ENV SELECT           |  00 47 - 01 | 0x0030 0048 - 01  | 0     | 1     | 0      | 0    | 1, 2                                                                        |
+| MXRDYNA     | MIXER DYNAMICS             |  00 48 - 01 | 0x0031 0049 - 01  | 0     | 3     | 0      | 0    |                                                                             |
+| FLTTYPE     | FILTER TYPE                |  00 49 - 01 | 0x0032 0050 - 01  | 0     | 3     | 0      | 0    |                                                                             |
+| FLTHPF2     | FILTER HPF STEP            |  00 4a - 01 | 0x0033 0051 - 01  | 0     | 3     | 0      | 0    |                                                                             |
+| FLTHPF1     | FILTER HPF                 |  00 4b - 04 | 0x0034 0052 - 02  | 0     | 1023  | 0      | 0    |                                                                             |
+| FLTFREQ     | FILTER FREQ                |  00 4f - 04 | 0x0036 0054 - 02  | 0     | 1023  | 0      | 0    |                                                                             |
+| FLTRESO     | FILTER RESO                |  00 53 - 04 | 0x0038 0056 - 02  | 0     | 1023  | 0      | 0    |                                                                             |
+| FLTENVD     | FILTER ENV DEPTH           |  00 57 - 04 | 0x003a 0058 - 02  | -1023 | 1023  | 1024   | 0    |                                                                             |
+| FLTENVS     | FILTER ENV SELECT          |  00 5b - 01 | 0x003c 0060 - 01  | 0     | 1     | 0      | 0    | 1, 2                                                                        |
+| FLTSLOPE    | FILTER SLOPE               |  00 5c - 01 | 0x003d 0061 - 01  | 0     | 2     | 0      | 0    | -12dB, -18db, -24dB                                                         |
+| FLTKYBD     | FILTER KEY FOLLOW          |  00 5d - 04 | 0x003e 0062 - 02  | -200  | 200   | 1024   | 0    |                                                                             |
+| FLTMOD      | FILTER MOD                 |  00 61 - 02 | 0x0040 0064 - 01  | -100  | 100   | 128    | 0    |                                                                             |
+| AMPLVL      | AMP LEVEL                  |  00 63 - 01 | 0x0042 0066 - 01  | 0     | 127   | 0      | 0    |                                                                             |
+| AMPMOD1     | AMP MOD                    |  00 64 - 02 | 0x0043 0067 - 01  | -100  | 100   | 0      | 0    |                                                                             |
+| AMPMOD2     | AMP MOD STEP               |  00 66 - 01 | 0x0044 0068 - 01  | 0     | 3     | 0      | 0    |                                                                             |
+| AMPENVS     | AMP ENV SELECT             |  00 67 - 01 | 0x0045 0069 - 01  | 0     | 3     | 0      | 0    | ENV F&A, ENV2, G-AMP, G-ENV2                                                |
+| ENV1A       | ENV1 ATTACK                |  00 68 - 04 | 0x0046 0070 - 02  | 0     | 1023  | 0      | 0    |                                                                             |
+| ENV1D       | ENV1 DECAY                 |  00 6c - 04 | 0x0048 0072 - 02  | 0     | 1023  | 0      | 0    |                                                                             |
+| ENV1S       | ENV1 SUSTAIN               |  00 70 - 04 | 0x004a 0074 - 02  | 0     | 1023  | 0      | 0    |                                                                             |
+| ENV1R       | ENV1 RELEASE               |  00 74 - 04 | 0x004c 0076 - 02  | 0     | 1023  | 0      | 0    |                                                                             |
+| ENV1KYBD1   | ENV1 KEY FOLLOW            |  00 78 - 02 | 0x004e 0078 - 01  | -100  | 100   | 128    | 0    |                                                                             |
+| ENV1KYBD2   | ENV1 KEY FOLLOW STEP       |  00 7a - 01 | 0x004f 0079 - 01  | 0     | 6     | 0      | 0    |                                                                             |
+| ENV2A       | ENV2 ATTACK                |  00 7b - 04 | 0x0050 0080 - 02  | 0     | 1023  | 0      | 0    |                                                                             |
+| ENV2D       | ENV2 DECAY                 |  00 7f - 04 | 0x0052 0082 - 02  | 0     | 1023  | 0      | 0    |                                                                             |
+| ENV2S       | ENV2 SUSTAIN               |  01 03 - 04 | 0x0054 0084 - 02  | 0     | 1023  | 0      | 0    |                                                                             |
+| ENV2R       | ENV2 RELEASE               |  01 07 - 04 | 0x0056 0086 - 02  | 0     | 1023  | 0      | 0    |                                                                             |
+| ENV2MODE    | ENV2 MODE                  |  01 0b - 01 | 0x0058 0088 - 01  | 0     | 2     | 0      | 0    | GATE+TRIG, GATE, LFO                                                        |
+| ENV2KYBD1   | ENV2 KEY FOLLOW            |  01 0c - 02 | 0x0059 0089 - 01  | -100  | 100   | 128    | 0    |                                                                             |
+| ENV2KYBD2   | ENV2 KEY FOLLOW STEP       |  01 0e - 01 | 0x005a 0090 - 01  | 0     | 3     | 0      | 0    |                                                                             |
+| DYNPTCH     | DYNAMICS PITCH             |  01 0f - 01 | 0x005b 0091 - 01  | 0     | 3     | 0      | 0    |                                                                             |
+| DYNFLTT     | DYNAMICS FILTER            |  01 10 - 01 | 0x005c 0092 - 01  | 0     | 3     | 0      | 0    |                                                                             |
+| DYNAMP      | DYNAMICS AMP               |  01 11 - 01 | 0x005d 0093 - 01  | 0     | 3     | 0      | 0    |                                                                             |
+| PCHDRFT     | PITCH DRIFT                |  01 12 - 02 | 0x005e 0094 - 01  | 0     | 255   | 0      | 0    |                                                                             |
+| BNDPTCH2    | BENDER PITCH DEPTH STEP    |  01 14 - 01 | 0x005f 0095 - 01  | 0     | 3     | 0      | 0    | 2, 3, 4, 7                                                                  |
+| BNDFLT      | BENDER FILTER DEPTH        |  01 15 - 01 | 0x0060 0096 - 01  | -63   | 63    | 64     | 0    |                                                                             |
+| BNDLFO      | MODULATION LFO DEPTH       |  01 16 - 01 | 0x0061 0097 - 01  | -63   | 63    | 64     | 0    |                                                                             |
+| BNDPTCH1    | BENDER PITCH DEPTH         |  01 17 - 04 | 0x0062 0098 - 02  | 0     | 4800  | 0      | 0    |                                                                             |
+| PTATIME     | PORTAMENT TIME             |  01 1b - 04 | 0x0064 0100 - 02  | 0     | 1023  | 0      | 0    |                                                                             |
+| PTAMODE     | PORTAMENT MODE             |  01 1f - 01 | 0x0066 0102 - 01  | 0     | 2     | 0      | 0    | OFF, ON, AUTO                                                               |
+| KBDMODE     | KEY MODE                   |  01 20 - 01 | 0x0067 0103 - 01  | 0     | 3     | 0      | 0    | POLY, SOLO, UNISON, SL-UNISON                                               |
+| EXPAND      | PARAMETER EXPANSION SWITCH |  01 21 - 01 | 0x0068 0104 - 01  | 0     | 1     | 0      | 0    | OFF, ON                                                                     |
+| CONDITION   | CONDITION                  |  01 22 - 01 | 0x0069 0105 - 01  | 0     | 100   | 0      | 0    |                                                                             |
+| PTACRV      | PORTAMENT CURVE TYPE       |  01 23 - 01 | 0x006a 0106 - 01  | 0     | 3     | 0      | 0    | ORIGINAL, LINER, EXP1, EXP2                                                 |
+| AFT_LFO     | AFTER TOUCH SENS LFO       |  01 24 - 01 | 0x006b 0107 - 01  | -63   | 63    | 64     | 0    |                                                                             |
+| AFT_FREQ    | AFTER TOUCH SENS FREQ      |  01 25 - 01 | 0x006c 0108 - 01  | -63   | 63    | 64     | 0    |                                                                             |
+| AFT_LEV     | AFTER TOUCH SENS LEVEL     |  01 26 - 01 | 0x006d 0109 - 01  | -63   | 63    | 64     | 0    |                                                                             |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:MDLSYN0 : Total Length Sysex: 01 27 Bytes: 0x0070 112                                                                                                                           |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:TONECOM                                                                                                                                                                                      |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ID       | Description | SXOff - len | Byte offset - len | Min | Max | Offset | Init | Values                                                                                                         |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| NAME_1   | Name 1      |  00 00 - 01 | 0x0000 0000 - 01  | 32  | 127 | 0      | 32   |                                                                                                                |
+| NAME_2   | Name 2      |  00 01 - 01 | 0x0001 0001 - 01  | 32  | 127 | 0      | 32   |                                                                                                                |
+| NAME_3   | Name 3      |  00 02 - 01 | 0x0002 0002 - 01  | 32  | 127 | 0      | 32   |                                                                                                                |
+| NAME_4   | Name 4      |  00 03 - 01 | 0x0003 0003 - 01  | 32  | 127 | 0      | 32   |                                                                                                                |
+| NAME_5   | Name 5      |  00 04 - 01 | 0x0004 0004 - 01  | 32  | 127 | 0      | 32   |                                                                                                                |
+| NAME_6   | Name 6      |  00 05 - 01 | 0x0005 0005 - 01  | 32  | 127 | 0      | 32   |                                                                                                                |
+| NAME_7   | Name 7      |  00 06 - 01 | 0x0006 0006 - 01  | 32  | 127 | 0      | 32   |                                                                                                                |
+| NAME_8   | Name 8      |  00 07 - 01 | 0x0007 0007 - 01  | 32  | 127 | 0      | 32   |                                                                                                                |
+| NAME_9   | Name 9      |  00 08 - 01 | 0x0008 0008 - 01  | 32  | 127 | 0      | 32   |                                                                                                                |
+| NAME_10  | Name 10     |  00 09 - 01 | 0x0009 0009 - 01  | 32  | 127 | 0      | 32   |                                                                                                                |
+| NAME_11  | Name 11     |  00 0a - 01 | 0x000a 0010 - 01  | 32  | 127 | 0      | 32   |                                                                                                                |
+| NAME_12  | Name 12     |  00 0b - 01 | 0x000b 0011 - 01  | 32  | 127 | 0      | 32   |                                                                                                                |
+| NAME_13  | Name 13     |  00 0c - 01 | 0x000c 0012 - 01  | 32  | 127 | 0      | 32   |                                                                                                                |
+| NAME_14  | Name 14     |  00 0d - 01 | 0x000d 0013 - 01  | 32  | 127 | 0      | 32   |                                                                                                                |
+| NAME_15  | Name 15     |  00 0e - 01 | 0x000e 0014 - 01  | 32  | 127 | 0      | 32   |                                                                                                                |
+| NAME_16  | Name 16     |  00 0f - 01 | 0x000f 0015 - 01  | 32  | 127 | 0      | 32   |                                                                                                                |
+| CATEGORY | Category    |  00 10 - 01 | 0x0010 0016 - 01  | 0   | 50  | 0      | 0    | None, Ac.Piano, Pop-Piano, E.Grand Piano, E.Piano1, E.Piano2, E.Organ, Pipe Organ, Reed Organ, Harpsichord ... |
+| RSRV8    | Reserved    |  00 11 - 02 | 0x0011 0017 - 01  | 0   | 0   | 0      | 0    |                                                                                                                |
+| RSRV16   | Reserved    |  00 13 - 04 | 0x0012 0018 - 02  | 0   | 0   | 0      | 0    |                                                                                                                |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Block id:TONECOM : Total Length Sysex: 00 17 Bytes: 0x0014 20                                                                                                                                         |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++--------------------------------------------------------------------------------------+
+| Group id:PCMEX                                                                       |
++--------------------------------------------------------------------------------------+
+| Block    | Index | Sysex Start | Byte offset | Block Byte Length | Total Byte Length |
++--------------------------------------------------------------------------------------+
+| PCMT_CMN | 1     | 00 00 00    | 0           | 64                | 64                |
+| MFX      | 1     | 00 01 00    | 64          | 84                | 84                |
+| PCMT_PMT | 1     | 00 10 00    | 148         | 52                | 52                |
+| PCMT_PTL | 1     | 00 20 00    | 200         | 124               | 496               |
+|          | 2     | 00 21 00    | 324         |                   |                   |
+|          | 3     | 00 22 00    | 448         |                   |                   |
+|          | 4     | 00 23 00    | 572         |                   |                   |
+| PTL_PENV | 1     | 00 24 00    | 696         | 24                | 96                |
+|          | 2     | 00 25 00    | 720         |                   |                   |
+|          | 3     | 00 26 00    | 744         |                   |                   |
+|          | 4     | 00 27 00    | 768         |                   |                   |
+| PTL_FENV | 1     | 00 28 00    | 792         | 24                | 96                |
+|          | 2     | 00 29 00    | 816         |                   |                   |
+|          | 3     | 00 2a 00    | 840         |                   |                   |
+|          | 4     | 00 2b 00    | 864         |                   |                   |
+| PTL_AENV | 1     | 00 2c 00    | 888         | 16                | 64                |
+|          | 2     | 00 2d 00    | 904         |                   |                   |
+|          | 3     | 00 2e 00    | 920         |                   |                   |
+|          | 4     | 00 2f 00    | 936         |                   |                   |
+| PTL_LFO  | 1     | 00 30 00    | 952         | 104               | 416               |
+|          | 2     | 00 32 00    | 1056        |                   |                   |
+|          | 3     | 00 34 00    | 1160        |                   |                   |
+|          | 4     | 00 36 00    | 1264        |                   |                   |
+| PTL_EQ   | 1     | 00 38 00    | 1368        | 16                | 64                |
+|          | 2     | 00 39 00    | 1384        |                   |                   |
+|          | 3     | 00 3a 00    | 1400        |                   |                   |
+|          | 4     | 00 3b 00    | 1416        |                   |                   |
+| PCMS_CMN | 1     | 00 3c 00    | 1432        | 20                | 20                |
+| PCMS_PMT | 1     | 00 3d 00    | 1452        | 36                | 36                |
+| PCMS_PTL | 1     | 00 3e 00    | 1488        | 36                | 144               |
+|          | 2     | 00 3f 00    | 1524        |                   |                   |
+|          | 3     | 00 40 00    | 1560        |                   |                   |
+|          | 4     | 00 41 00    | 1596        |                   |                   |
++--------------------------------------------------------------------------------------+
+| Group id:PCMEX : Total Length Bytes: 0x0660 1632                                     |
++--------------------------------------------------------------------------------------+

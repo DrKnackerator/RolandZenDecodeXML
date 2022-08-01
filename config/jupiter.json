@@ -1,0 +1,45 @@
+{
+    "settings": {
+        "includePadding":false,
+        "textTableToConsole": false
+    },
+    "importXML": [
+        {
+            "file":"jupiter_xml/db_muse_pcmex.xml",
+            "blocks":[
+                "PCMT_CMN",
+                "PCMS_PMT",
+                "PCMT_PTL",
+                "PTL_PENV",
+                "PTL_FENV",
+                "PTL_AENV",
+                "PTL_LFO",
+                "PTL_EQ",
+                "PCMS_CMN",
+                "PCMT_PMT",
+                "PCMS_PTL"
+            ]
+        },
+        {
+            "file": "jupiter_xml/db_muse_mfx.xml",
+            "blocks": [
+                "MFX"
+            ]
+        },
+        {
+            "file": "jupiter_xml/db_bmc0_model.xml",
+            "blocks": [
+                "MDLSYN0"
+            ]
+        },
+        {
+            "file": "jupiter_xml/db_bmc0.xml",
+            "blocks": [
+                "TONECOM"
+            ],
+            "groups": [
+                "PCMEX"
+            ]
+        }
+    ]
+}
