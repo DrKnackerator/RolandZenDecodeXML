@@ -2,7 +2,7 @@
     "settings": {
         "includePadding":false,
         "textTableToConsole": false,
-        "prettyJSON" : false
+        "prettyJSON" : true
     },
     "importXML": [
         {
@@ -18,7 +18,11 @@
                 "PTL_EQ",
                 "PCMS_CMN",
                 "PCMT_PMT",
-                "PCMS_PTL"
+                "PCMS_PTL",
+                "PCMR_CMN",
+                "RCMP",
+                "PCMR_PTL"
+
             ]
         },
         {
@@ -34,12 +38,28 @@
             ]
         },
         {
+            "file": "jupiter_xml/db_bmc0_jd800.xml",
+            "blocks": [
+                "MDLJD800COM",
+                "MDLJD800PTL",
+                "MDLJD800FxB"
+            ]
+        },
+        {
+            "file": "jupiter_xml/db_bmc0_vd.xml",
+            "blocks": [
+                "MDLVDN"
+            ]
+        },
+        {
             "file": "jupiter_xml/db_bmc0.xml",
             "blocks": [
                 "TONECOM"
             ],
             "groups": [
-                "PCMEX"
+                "PCMEX",
+                "PCMR",
+                "MdlSynPrm0"
             ]
         }
     ]

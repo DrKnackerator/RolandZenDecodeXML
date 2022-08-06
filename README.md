@@ -1,4 +1,4 @@
-# RolandZenDecodeXML
+# RolandZenDecodeXML Build 3
 A tool to decode Roland editor XML files (initially Jupiter X/Xm and ZenCore) and generate JSON and a Javascript module with byte offsets (for files)
 and SYSEX locations/length, with plain text and HTML output tables for easy reading.
 
@@ -93,8 +93,87 @@ Whilst `groups` corresponds to an entry like this:
 
 Groups are containers for blocks and some of these may have multiple copies (i.e. one for each partial).
 
-# Limitations
-Need to sort out Names as a string rather than 16 chars.
+## JSON Output
+Simple example, range of values
+```
+{
+"id": "PHRASE_VEL_SHIFT",
+"description": "Phrase Velo Shift",
+"byteOffset": 24,                       // byte offset from start of block
+"lengthBytes": 1,                       // length of binary data block
+"sysexOffset": 23,                      // sysex offset from start of block (decimal)
+"lengthSysex": 2,                       // length of sysex data. more than 1 = use lower nibbles
+"dataRange": [                          // range of data 
+    -100,
+    100
+],
+"initValue": 0,                         // initial value
+"valueOffset": 128,                     // offset for binary/sysex value. so 0 as real data is encoded 
+                                        // as 128 in binary and sysex 
+"isPadding": false,                     // padding = no useful value, only enabled by option
+"values": null                          // map of value => description
+}
+```
+Example with set values
+```
+{
+"id": "ctrlSrc1",
+"description": "MFX CtrlSrc 1",
+"byteOffset": 4,
+"lengthBytes": 1,
+"sysexOffset": 4,
+"lengthSysex": 1,
+"dataRange": [
+    0,
+    100
+],
+"initValue": 0,
+"valueOffset": 0,
+"isPadding": false,
+"values": {                           // map of value => description
+    "0": "OFF",
+    "1": "MOD:CC01",
+    "2": "BRETH:CC02",
+    "3": "CC03",
+    "4": "FOOT:CC04",
+    "5": "PTIME:CC05",
+    "6": "DENT:CC06",
+    ...
+]
+}
+```
+Some parameters can have a measurement name attached (such as db or cent) and also there is scaling applied to the original data value:
+```
+{
+"id": "RELEASE",
+"description": "Comp Release Time",
+"byteOffset": 2,
+"lengthBytes": 1,
+"sysexOffset": 2,
+"lengthSysex": 1,
+"dataRange": [
+    0,
+    99
+],
+"initValue": 0,
+"valueOffset": 0,
+"isPadding": false,
+"values": null,
+"displayMeasurement": "ms",         // 
+"displayRange": [                   // scale dataRange to displayRange
+    "10",
+    "1000"
+]
+}
+```
+
+## Changelog
+**Build3**
+
+Added `displayMeasurement` and `displayRange`. Fixes invalid item issues with EQ section.
+Added ModelSyn and PCM Rythm structures to output, plus some model data
+
+## Limitations
 
 Doesn't fully/correctly process all the xml files, not sure how it all fits together as a whole, so just picking the parts I know I need right now.
 

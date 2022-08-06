@@ -10,7 +10,6 @@ function pr($val) {
     print_r($val);
     echo "\r\n";
 }
-
 // return array of hex values in sysex format, i.e. 7 bits
 function getSysexValueArray($value, $length=2) {
     $rv=[];
@@ -33,6 +32,7 @@ function convertSysexValue($string) {
         $total += hexdec($parts[$i]) * pow(128,$i);
     return $total;
 }
+
 
 class NumDefs {
     static array $table=[];
@@ -75,6 +75,7 @@ class DataEntry {
     var bool $isPadding=false;
     var $values=null;
 
+
     function __construct($id, $byteOffset, $sysexOffset, $lengthBytes, $lengthSysex, $description, $dataRange, $init, $valueOffset, $valuesString="", $padding=false) {
         $this->id = $id;
         $this->byteOffset = $byteOffset;
@@ -96,8 +97,21 @@ class DataEntry {
         if ($valuesString=='L64 - 63R')
             return;
 
+        // look for displayMeasurement
+        if ( preg_match('/(.*?) ?(\[(.*)])?$/m', $valuesString, $matches ) && !empty($matches[3] )) {
+            $this->displayMeasurement=$matches[3];
+            $valuesString =  $matches[1];
+        }
+
         // look for numeric range (optional measurement)
-        if (preg_match('/^-?\d+ ?- ?\+?\d+( \[ ?(.*?) ?])?/m',$valuesString)) {
+        if (preg_match('/^(-?\d+\.?\d*) ?- ?(\+?\d+\.?\d*+)/m',$valuesString,$matches)) {
+            // range same as datarange
+            if (strstr($valuesString,'cent')!==false)
+                pr($matches);
+            if ($matches[1]==$this->dataRange[0] && $matches[2]==$this->dataRange[1])
+                return;
+            $this->displayRange=[$matches[1],$matches[2]];
+
             return;
         }
 
@@ -460,6 +474,8 @@ foreach($config->importXML as $xmlFileImport) {
     foreach ($xmlFileImport->blocks as $blockName) {
         pr("  $blockName");
         $p = $xml->xpath("/*/*[@name='$blockName']");
+        if ($p[0]==null)
+            throw new Exception("Cannot find block $blockName");
         $d = new DataStructure($blockName,$includePadding);
         $d->processBaseBlock($p[0]);
         $d->outTable($textOutFile,true);
