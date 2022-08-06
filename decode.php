@@ -71,12 +71,12 @@ class DataEntry {
     var $lengthSysex=1;
     var $dataRange;
     var $initValue;
-    var $valueOffset;
+    var $sysexValueOffset;
     var bool $isPadding=false;
     var $values=null;
 
 
-    function __construct($id, $byteOffset, $sysexOffset, $lengthBytes, $lengthSysex, $description, $dataRange, $init, $valueOffset, $valuesString="", $padding=false) {
+    function __construct($id, $byteOffset, $sysexOffset, $lengthBytes, $lengthSysex, $description, $dataRange, $init, $sysexValueOffset, $valuesString="", $padding=false) {
         $this->id = $id;
         $this->byteOffset = $byteOffset;
         $this->sysexOffset = $sysexOffset;
@@ -85,7 +85,7 @@ class DataEntry {
         $this->description = $description;
         $this->dataRange = $dataRange;
         $this->initValue = $init;
-        $this->valueOffset = $valueOffset;
+        $this->sysexValueOffset = $sysexValueOffset;
         $this->processValueString($valuesString);
         $this->isPadding = $padding;
     }
@@ -110,7 +110,7 @@ class DataEntry {
                 pr($matches);
             if ($matches[1]==$this->dataRange[0] && $matches[2]==$this->dataRange[1])
                 return;
-            $this->displayRange=[$matches[1],$matches[2]];
+            $this->displayRange=[$matches[1]+0,$matches[2]+0];  // will convert to number for output
 
             return;
         }
@@ -138,7 +138,7 @@ class DataEntry {
                            sprintf("0x%04x %04d - %02d",$this->byteOffset, $this->byteOffset, $this->lengthBytes ),
                            $this->dataRange[0],
                            $this->dataRange[1],
-                           $this->valueOffset,
+                           $this->sysexValueOffset,
                            $this->initValue,
                            $vs
         );

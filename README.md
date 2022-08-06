@@ -108,8 +108,8 @@ Simple example, range of values
     100
 ],
 "initValue": 0,                         // initial value
-"valueOffset": 128,                     // offset for binary/sysex value. so 0 as real data is encoded 
-                                        // as 128 in binary and sysex 
+"sysexValueOffset": 128,                // offset for binary/sysex value. so 0 as real data is encoded 
+                                        // as 128 in sysex. Binary values are signed. 
 "isPadding": false,                     // padding = no useful value, only enabled by option
 "values": null                          // map of value => description
 }
@@ -128,7 +128,7 @@ Example with set values
     100
 ],
 "initValue": 0,
-"valueOffset": 0,
+"sysexValueOffset": 0,
 "isPadding": false,
 "values": {                           // map of value => description
     "0": "OFF",
@@ -156,7 +156,7 @@ Some parameters can have a measurement name attached (such as db or cent) and al
     99
 ],
 "initValue": 0,
-"valueOffset": 0,
+"sysexValueOffset": 0,
 "isPadding": false,
 "values": null,
 "displayMeasurement": "ms",         // 
@@ -171,7 +171,8 @@ Some parameters can have a measurement name attached (such as db or cent) and al
 **Build3**
 
 Added `displayMeasurement` and `displayRange`. Fixes invalid item issues with EQ section.
-Added ModelSyn and PCM Rythm structures to output, plus some model data
+Added ModelSyn and PCM Rythm structures to output, plus some model data.
+Changed `valueOffset` to `sysexValueOffset` as it only influences data sent by sysex.
 
 ## Limitations
 

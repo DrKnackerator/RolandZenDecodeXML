@@ -18,7 +18,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -35,7 +35,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -52,7 +52,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -69,7 +69,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -86,7 +86,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -103,7 +103,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -120,7 +120,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -137,7 +137,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -154,7 +154,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -171,7 +171,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -188,7 +188,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -205,7 +205,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -222,7 +222,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -239,7 +239,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -256,7 +256,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -273,7 +273,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -290,7 +290,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "None",
@@ -358,7 +358,7 @@ export default
                         0
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -374,7 +374,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -390,7 +390,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -406,7 +406,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "LAST",
@@ -425,7 +425,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "semitone"
@@ -442,7 +442,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "cent"
@@ -459,7 +459,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -475,7 +475,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -496,7 +496,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -512,7 +512,7 @@ export default
                         1
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "MONO",
@@ -531,7 +531,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -550,7 +550,7 @@ export default
                         13
                     ],
                     "initValue": 12,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "0",
@@ -581,7 +581,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -600,7 +600,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "NORMAL",
@@ -619,7 +619,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "RATE",
@@ -638,7 +638,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "PITCH",
@@ -657,7 +657,7 @@ export default
                         1023
                     ],
                     "initValue": 73,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -673,7 +673,7 @@ export default
                         48
                     ],
                     "initValue": 2,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -689,7 +689,7 @@ export default
                         48
                     ],
                     "initValue": 2,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -705,7 +705,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "NORMAL",
@@ -724,7 +724,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -740,7 +740,7 @@ export default
                         0
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -756,7 +756,7 @@ export default
                         0
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -772,7 +772,7 @@ export default
                         0
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -788,7 +788,7 @@ export default
                         0
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -804,12 +804,12 @@ export default
                         2
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayRange": [
-                        "1",
-                        "3"
+                        1,
+                        3
                     ]
                 },
                 {
@@ -824,7 +824,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -850,7 +850,7 @@ export default
                         4
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -872,7 +872,7 @@ export default
                         4
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -894,7 +894,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -910,7 +910,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -926,7 +926,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -942,7 +942,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -958,7 +958,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -974,7 +974,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -990,7 +990,7 @@ export default
                         10800
                     ],
                     "initValue": 1200,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "cent"
@@ -1007,7 +1007,7 @@ export default
                         10800
                     ],
                     "initValue": 1200,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "cent"
@@ -1024,7 +1024,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1040,7 +1040,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1056,7 +1056,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1072,7 +1072,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1088,7 +1088,7 @@ export default
                         1
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -1107,7 +1107,7 @@ export default
                         127
                     ],
                     "initValue": 100,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1123,7 +1123,7 @@ export default
                         127
                     ],
                     "initValue": 100,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 }
@@ -1146,7 +1146,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1162,7 +1162,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -1178,7 +1178,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "cent"
@@ -1195,7 +1195,7 @@ export default
                         1200
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "cent"
@@ -1212,7 +1212,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -1228,7 +1228,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -1244,7 +1244,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1260,7 +1260,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -1276,7 +1276,7 @@ export default
                         1
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "NO-SUS",
@@ -1295,7 +1295,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "NORMAL",
@@ -1316,7 +1316,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -1335,7 +1335,7 @@ export default
                         21
                     ],
                     "initValue": 12,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "1/64T",
@@ -1374,7 +1374,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1390,7 +1390,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1406,7 +1406,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1422,7 +1422,7 @@ export default
                         1
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -1441,7 +1441,7 @@ export default
                         1
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -1460,7 +1460,7 @@ export default
                         1
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -1479,7 +1479,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -1498,7 +1498,7 @@ export default
                         1
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "DRY",
@@ -1517,7 +1517,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "INT",
@@ -1538,7 +1538,7 @@ export default
                         16383
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1554,7 +1554,7 @@ export default
                         16383
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1570,7 +1570,7 @@ export default
                         16383
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1586,7 +1586,7 @@ export default
                         5
                     ],
                     "initValue": 3,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "-18",
@@ -1610,7 +1610,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -1629,7 +1629,7 @@ export default
                         4
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1645,7 +1645,7 @@ export default
                         16
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1661,7 +1661,7 @@ export default
                         200
                     ],
                     "initValue": 100,
-                    "valueOffset": 1024,
+                    "sysexValueOffset": 1024,
                     "isPadding": false,
                     "values": null
                 },
@@ -1677,7 +1677,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1693,7 +1693,7 @@ export default
                         6
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -1717,7 +1717,7 @@ export default
                         1023
                     ],
                     "initValue": 1023,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1733,7 +1733,7 @@ export default
                         200
                     ],
                     "initValue": 0,
-                    "valueOffset": 1024,
+                    "sysexValueOffset": 1024,
                     "isPadding": false,
                     "values": null
                 },
@@ -1749,7 +1749,7 @@ export default
                         7
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "FIXED",
@@ -1774,7 +1774,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -1790,7 +1790,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1806,7 +1806,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -1822,7 +1822,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -1838,7 +1838,7 @@ export default
                         127
                     ],
                     "initValue": 60,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -1854,7 +1854,7 @@ export default
                         3
                     ],
                     "initValue": 3,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "LOWER",
@@ -1875,7 +1875,7 @@ export default
                         7
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "FIXED",
@@ -1900,7 +1900,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -1916,7 +1916,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -1932,7 +1932,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -1948,7 +1948,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -1964,7 +1964,7 @@ export default
                         100
                     ],
                     "initValue": 10,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -1980,7 +1980,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -1996,7 +1996,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -2012,7 +2012,7 @@ export default
                         108
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -2138,7 +2138,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -2204,7 +2204,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -2220,7 +2220,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -2286,7 +2286,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -2302,7 +2302,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -2368,7 +2368,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -2384,7 +2384,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -2450,7 +2450,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -2466,7 +2466,7 @@ export default
                         108
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -2592,7 +2592,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -2658,7 +2658,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -2674,7 +2674,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -2740,7 +2740,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -2756,7 +2756,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -2822,7 +2822,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -2838,7 +2838,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -2904,7 +2904,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -2920,7 +2920,7 @@ export default
                         108
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -3046,7 +3046,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -3112,7 +3112,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -3128,7 +3128,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -3194,7 +3194,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -3210,7 +3210,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -3276,7 +3276,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -3292,7 +3292,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -3358,7 +3358,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -3374,7 +3374,7 @@ export default
                         108
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -3500,7 +3500,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -3566,7 +3566,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -3582,7 +3582,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -3648,7 +3648,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -3664,7 +3664,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -3730,7 +3730,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -3746,7 +3746,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -3812,7 +3812,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -3828,7 +3828,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -3974,7 +3974,7 @@ export default
                         100
                     ],
                     "initValue": 100,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -3990,7 +3990,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "cent"
@@ -4007,7 +4007,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -4023,7 +4023,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -4049,7 +4049,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -4065,7 +4065,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -4081,7 +4081,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -4097,7 +4097,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -4113,7 +4113,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4129,7 +4129,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4145,7 +4145,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4161,7 +4161,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4177,7 +4177,7 @@ export default
                         511
                     ],
                     "initValue": 0,
-                    "valueOffset": 1024,
+                    "sysexValueOffset": 1024,
                     "isPadding": false,
                     "values": null
                 },
@@ -4193,7 +4193,7 @@ export default
                         511
                     ],
                     "initValue": 240,
-                    "valueOffset": 1024,
+                    "sysexValueOffset": 1024,
                     "isPadding": false,
                     "values": null
                 },
@@ -4209,7 +4209,7 @@ export default
                         511
                     ],
                     "initValue": 240,
-                    "valueOffset": 1024,
+                    "sysexValueOffset": 1024,
                     "isPadding": false,
                     "values": null
                 },
@@ -4225,7 +4225,7 @@ export default
                         511
                     ],
                     "initValue": 240,
-                    "valueOffset": 1024,
+                    "sysexValueOffset": 1024,
                     "isPadding": false,
                     "values": null
                 },
@@ -4241,7 +4241,7 @@ export default
                         511
                     ],
                     "initValue": 0,
-                    "valueOffset": 1024,
+                    "sysexValueOffset": 1024,
                     "isPadding": false,
                     "values": null
                 },
@@ -4257,7 +4257,7 @@ export default
                         7
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "FIXED",
@@ -4289,7 +4289,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -4305,7 +4305,7 @@ export default
                         7
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "FIXED",
@@ -4330,7 +4330,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -4346,7 +4346,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -4362,7 +4362,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -4378,7 +4378,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4394,7 +4394,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4410,7 +4410,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4426,7 +4426,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4442,7 +4442,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4458,7 +4458,7 @@ export default
                         1023
                     ],
                     "initValue": 1023,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4474,7 +4474,7 @@ export default
                         1023
                     ],
                     "initValue": 1023,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4490,7 +4490,7 @@ export default
                         1023
                     ],
                     "initValue": 1023,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4506,7 +4506,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 }
@@ -4529,7 +4529,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -4545,7 +4545,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -4561,7 +4561,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4577,7 +4577,7 @@ export default
                         1023
                     ],
                     "initValue": 30,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4593,7 +4593,7 @@ export default
                         1023
                     ],
                     "initValue": 400,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4609,7 +4609,7 @@ export default
                         1023
                     ],
                     "initValue": 400,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4625,7 +4625,7 @@ export default
                         1023
                     ],
                     "initValue": 1023,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4641,7 +4641,7 @@ export default
                         1023
                     ],
                     "initValue": 1023,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4657,7 +4657,7 @@ export default
                         1023
                     ],
                     "initValue": 1023,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 }
@@ -4680,7 +4680,7 @@ export default
                         10
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "SIN",
@@ -4708,7 +4708,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -4727,7 +4727,7 @@ export default
                         22
                     ],
                     "initValue": 12,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "1/64T",
@@ -4767,12 +4767,12 @@ export default
                         15
                     ],
                     "initValue": 15,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayRange": [
-                        "1",
-                        "16"
+                        1,
+                        16
                     ]
                 },
                 {
@@ -4787,7 +4787,7 @@ export default
                         1023
                     ],
                     "initValue": 650,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4803,7 +4803,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -4819,7 +4819,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4835,7 +4835,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4851,7 +4851,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -4867,7 +4867,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "ON-IN",
@@ -4888,7 +4888,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -4904,7 +4904,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -4923,7 +4923,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -4939,7 +4939,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -4955,7 +4955,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -4971,7 +4971,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -4987,7 +4987,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5003,7 +5003,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5019,7 +5019,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5035,7 +5035,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5051,7 +5051,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5067,7 +5067,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5083,7 +5083,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5099,7 +5099,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5115,7 +5115,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5131,7 +5131,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5147,7 +5147,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5163,7 +5163,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5179,7 +5179,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5195,7 +5195,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5211,7 +5211,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5227,7 +5227,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5243,7 +5243,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5259,7 +5259,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5275,7 +5275,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5291,7 +5291,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5307,7 +5307,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5323,7 +5323,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5339,7 +5339,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5355,7 +5355,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5371,7 +5371,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5387,7 +5387,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5403,7 +5403,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5419,7 +5419,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5435,7 +5435,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5451,7 +5451,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5467,7 +5467,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5483,7 +5483,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5499,7 +5499,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5515,7 +5515,7 @@ export default
                         10
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "SIN",
@@ -5543,7 +5543,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -5562,7 +5562,7 @@ export default
                         22
                     ],
                     "initValue": 12,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "1/64T",
@@ -5602,12 +5602,12 @@ export default
                         15
                     ],
                     "initValue": 15,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayRange": [
-                        "1",
-                        "16"
+                        1,
+                        16
                     ]
                 },
                 {
@@ -5622,7 +5622,7 @@ export default
                         1023
                     ],
                     "initValue": 650,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5638,7 +5638,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5654,7 +5654,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5670,7 +5670,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5686,7 +5686,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5702,7 +5702,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "ON-IN",
@@ -5723,7 +5723,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5739,7 +5739,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -5758,7 +5758,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5774,7 +5774,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5790,7 +5790,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5806,7 +5806,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -5822,7 +5822,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -5838,7 +5838,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5854,7 +5854,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5870,7 +5870,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5886,7 +5886,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5902,7 +5902,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5918,7 +5918,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5934,7 +5934,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5950,7 +5950,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5966,7 +5966,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5982,7 +5982,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -5998,7 +5998,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -6014,7 +6014,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -6030,7 +6030,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -6046,7 +6046,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -6062,7 +6062,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -6078,7 +6078,7 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -6094,7 +6094,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6110,7 +6110,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6126,7 +6126,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6142,7 +6142,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6158,7 +6158,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6174,7 +6174,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6190,7 +6190,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6206,7 +6206,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6222,7 +6222,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6238,7 +6238,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6254,7 +6254,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6270,7 +6270,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6286,7 +6286,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6302,7 +6302,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6318,7 +6318,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6334,7 +6334,7 @@ export default
                         36
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 }
@@ -6357,13 +6357,13 @@ export default
                         240
                     ],
                     "initValue": 0,
-                    "valueOffset": 1024,
+                    "sysexValueOffset": 1024,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "EQGAIN",
                     "displayRange": [
-                        "-24.0",
-                        "+24.0"
+                        -24,
+                        24
                     ]
                 },
                 {
@@ -6378,13 +6378,13 @@ export default
                         240
                     ],
                     "initValue": 0,
-                    "valueOffset": 1024,
+                    "sysexValueOffset": 1024,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "EQGAIN",
                     "displayRange": [
-                        "-24.0",
-                        "+24.0"
+                        -24,
+                        24
                     ]
                 },
                 {
@@ -6399,13 +6399,13 @@ export default
                         240
                     ],
                     "initValue": 0,
-                    "valueOffset": 1024,
+                    "sysexValueOffset": 1024,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "EQGAIN",
                     "displayRange": [
-                        "-24.0",
-                        "+24.0"
+                        -24,
+                        24
                     ]
                 },
                 {
@@ -6420,7 +6420,7 @@ export default
                         16000
                     ],
                     "initValue": 200,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "EQFREQ"
@@ -6437,7 +6437,7 @@ export default
                         16000
                     ],
                     "initValue": 1000,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "EQFREQ"
@@ -6454,7 +6454,7 @@ export default
                         16000
                     ],
                     "initValue": 2000,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "EQFREQ"
@@ -6471,13 +6471,13 @@ export default
                         160
                     ],
                     "initValue": 10,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "EQQ",
                     "displayRange": [
-                        "0.5",
-                        "16.0"
+                        0.5,
+                        16
                     ]
                 },
                 {
@@ -6492,7 +6492,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -6518,7 +6518,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -6537,7 +6537,7 @@ export default
                         8
                     ],
                     "initValue": 4,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6553,7 +6553,7 @@ export default
                         100
                     ],
                     "initValue": 20,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6569,7 +6569,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6585,7 +6585,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6601,7 +6601,7 @@ export default
                         255
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6617,7 +6617,7 @@ export default
                         8
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "FREE",
@@ -6643,7 +6643,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 }
@@ -6666,7 +6666,7 @@ export default
                         3
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -6687,7 +6687,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "EXP",
@@ -6706,7 +6706,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -6725,7 +6725,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6741,7 +6741,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6757,7 +6757,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6773,7 +6773,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6789,7 +6789,7 @@ export default
                         127
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6805,7 +6805,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6821,7 +6821,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6837,7 +6837,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6853,7 +6853,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -6872,7 +6872,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6888,7 +6888,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6904,7 +6904,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6920,7 +6920,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6936,7 +6936,7 @@ export default
                         127
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6952,7 +6952,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6968,7 +6968,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -6984,7 +6984,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7000,7 +7000,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -7019,7 +7019,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7035,7 +7035,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7051,7 +7051,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7067,7 +7067,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7083,7 +7083,7 @@ export default
                         127
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7099,7 +7099,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7115,7 +7115,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7131,7 +7131,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7147,7 +7147,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -7166,7 +7166,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7182,7 +7182,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7198,7 +7198,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7214,7 +7214,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7230,7 +7230,7 @@ export default
                         127
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7246,7 +7246,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7262,7 +7262,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7278,7 +7278,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 }
@@ -7301,7 +7301,7 @@ export default
                         4
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "PCM",
@@ -7323,7 +7323,7 @@ export default
                         8
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "SAW",
@@ -7349,7 +7349,7 @@ export default
                         16383
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7365,7 +7365,7 @@ export default
                         127
                     ],
                     "initValue": 64,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7381,7 +7381,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -7397,7 +7397,7 @@ export default
                         127
                     ],
                     "initValue": 64,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7413,7 +7413,7 @@ export default
                         3
                     ],
                     "initValue": 2,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "SOFT",
@@ -7434,7 +7434,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7450,7 +7450,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "TVF",
@@ -7469,7 +7469,7 @@ export default
                         2
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "-12",
@@ -7490,7 +7490,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -7509,7 +7509,7 @@ export default
                         127
                     ],
                     "initValue": 64,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7525,7 +7525,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "VCF1",
@@ -7546,7 +7546,7 @@ export default
                         255
                     ],
                     "initValue": 255,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7562,7 +7562,7 @@ export default
                         127
                     ],
                     "initValue": 60,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7578,7 +7578,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -7597,7 +7597,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -7613,7 +7613,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -7632,7 +7632,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -7651,7 +7651,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -7670,7 +7670,7 @@ export default
                         120
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7686,7 +7686,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -7702,12 +7702,12 @@ export default
                         72
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayRange": [
-                        "0",
-                        "360"
+                        0,
+                        360
                     ]
                 }
             ]
@@ -7729,7 +7729,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -7746,7 +7746,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -7763,7 +7763,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -7780,7 +7780,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -7797,7 +7797,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -7814,7 +7814,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -7831,7 +7831,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -7848,7 +7848,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -7865,7 +7865,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -7882,7 +7882,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -7899,7 +7899,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -7916,7 +7916,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -7933,7 +7933,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -7950,7 +7950,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -7967,7 +7967,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -7984,7 +7984,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -8001,7 +8001,7 @@ export default
                         65535
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -8017,7 +8017,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -8033,7 +8033,7 @@ export default
                         200
                     ],
                     "initValue": 100,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -8049,7 +8049,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 }
@@ -8072,7 +8072,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -8091,7 +8091,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "0.1",
@@ -8210,13 +8210,13 @@ export default
                         99
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ms",
                     "displayRange": [
-                        "10",
-                        "1000"
+                        10,
+                        1000
                     ]
                 },
                 {
@@ -8231,7 +8231,7 @@ export default
                         0
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "dB"
@@ -8248,7 +8248,7 @@ export default
                         7
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "1:1",
@@ -8273,7 +8273,7 @@ export default
                         30
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "dB"
@@ -8290,13 +8290,13 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "dB",
                     "displayRange": [
-                        "-24.0",
-                        "+24.0"
+                        -24,
+                        24
                     ]
                 },
                 {
@@ -8311,7 +8311,7 @@ export default
                         10
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "DRY",
@@ -8346,7 +8346,7 @@ export default
                         32768
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -8362,7 +8362,7 @@ export default
                         2
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "PRESET",
@@ -8382,7 +8382,7 @@ export default
                         16383
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -8398,7 +8398,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -8414,7 +8414,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -8430,7 +8430,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -8446,7 +8446,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -8462,7 +8462,7 @@ export default
                         31
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -8511,7 +8511,7 @@ export default
                         7
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "DRY",
@@ -8536,7 +8536,7 @@ export default
                         24
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -8552,7 +8552,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "cent"
@@ -8569,7 +8569,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -8585,7 +8585,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -8601,7 +8601,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -8617,7 +8617,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -8633,7 +8633,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 }
@@ -8656,7 +8656,7 @@ export default
                         93
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -8672,7 +8672,7 @@ export default
                         1
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -8688,7 +8688,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -8704,7 +8704,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -8720,7 +8720,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -8838,7 +8838,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -8854,7 +8854,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -8972,7 +8972,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -8988,7 +8988,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -9106,7 +9106,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -9122,7 +9122,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -9240,7 +9240,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -9256,7 +9256,7 @@ export default
                         11
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -9272,7 +9272,7 @@ export default
                         11
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -9288,7 +9288,7 @@ export default
                         11
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -9304,7 +9304,7 @@ export default
                         11
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -9320,7 +9320,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9336,7 +9336,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9352,7 +9352,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9368,7 +9368,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9384,7 +9384,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9400,7 +9400,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9416,7 +9416,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9432,7 +9432,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9448,7 +9448,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9464,7 +9464,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9480,7 +9480,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9496,7 +9496,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9512,7 +9512,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9528,7 +9528,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9544,7 +9544,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9560,7 +9560,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9576,7 +9576,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9592,7 +9592,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9608,7 +9608,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9624,7 +9624,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9640,7 +9640,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9656,7 +9656,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9672,7 +9672,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9688,7 +9688,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9704,7 +9704,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9720,7 +9720,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9736,7 +9736,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9752,7 +9752,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9768,7 +9768,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9784,7 +9784,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9800,7 +9800,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 },
@@ -9816,7 +9816,7 @@ export default
                         20000
                     ],
                     "initValue": 0,
-                    "valueOffset": 32768,
+                    "sysexValueOffset": 32768,
                     "isPadding": false,
                     "values": null
                 }
@@ -9839,7 +9839,7 @@ export default
                         5
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "---",
@@ -9862,7 +9862,7 @@ export default
                         10
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "SIN",
@@ -9890,7 +9890,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -9906,7 +9906,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -9922,7 +9922,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -9938,7 +9938,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -9954,7 +9954,7 @@ export default
                         2
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OSC1",
@@ -9974,7 +9974,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "1",
@@ -9993,7 +9993,7 @@ export default
                         27
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "PW",
@@ -10038,7 +10038,7 @@ export default
                         4
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "32'",
@@ -10060,7 +10060,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -10076,7 +10076,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -10092,7 +10092,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10108,7 +10108,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "NORMAL",
@@ -10127,7 +10127,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -10143,7 +10143,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10159,7 +10159,7 @@ export default
                         2
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "LFO",
@@ -10179,7 +10179,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -10195,7 +10195,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -10211,7 +10211,7 @@ export default
                         27
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "PW",
@@ -10256,7 +10256,7 @@ export default
                         4
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "32'",
@@ -10278,7 +10278,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -10294,7 +10294,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -10310,7 +10310,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10326,7 +10326,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "NORMAL",
@@ -10345,7 +10345,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10361,7 +10361,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -10377,7 +10377,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -10393,7 +10393,7 @@ export default
                         27
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "PW",
@@ -10438,7 +10438,7 @@ export default
                         4
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "32'",
@@ -10460,7 +10460,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -10476,7 +10476,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -10492,7 +10492,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10508,7 +10508,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "NORMAL",
@@ -10527,7 +10527,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "WHITE",
@@ -10546,7 +10546,7 @@ export default
                         10800
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10562,7 +10562,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -10583,7 +10583,7 @@ export default
                         255
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10599,7 +10599,7 @@ export default
                         255
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10615,7 +10615,7 @@ export default
                         255
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10631,7 +10631,7 @@ export default
                         255
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10647,7 +10647,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -10663,7 +10663,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "1",
@@ -10682,7 +10682,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10698,7 +10698,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10714,7 +10714,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10730,7 +10730,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10746,7 +10746,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10762,7 +10762,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10778,7 +10778,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 1024,
+                    "sysexValueOffset": 1024,
                     "isPadding": false,
                     "values": null
                 },
@@ -10794,7 +10794,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "1",
@@ -10813,7 +10813,7 @@ export default
                         2
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "-12dB",
@@ -10833,7 +10833,7 @@ export default
                         200
                     ],
                     "initValue": 0,
-                    "valueOffset": 1024,
+                    "sysexValueOffset": 1024,
                     "isPadding": false,
                     "values": null
                 },
@@ -10849,7 +10849,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -10865,7 +10865,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10881,7 +10881,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10897,7 +10897,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10913,7 +10913,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "ENV F&A",
@@ -10934,7 +10934,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10950,7 +10950,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10966,7 +10966,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10982,7 +10982,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -10998,7 +10998,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -11014,7 +11014,7 @@ export default
                         6
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11030,7 +11030,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11046,7 +11046,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11062,7 +11062,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11078,7 +11078,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11094,7 +11094,7 @@ export default
                         2
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "GATE+TRIG",
@@ -11114,7 +11114,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 128,
+                    "sysexValueOffset": 128,
                     "isPadding": false,
                     "values": null
                 },
@@ -11130,7 +11130,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11146,7 +11146,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11162,7 +11162,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11178,7 +11178,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11194,7 +11194,7 @@ export default
                         255
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11210,7 +11210,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "2",
@@ -11231,7 +11231,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -11247,7 +11247,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -11263,7 +11263,7 @@ export default
                         4800
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11279,7 +11279,7 @@ export default
                         1023
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11295,7 +11295,7 @@ export default
                         2
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -11315,7 +11315,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "POLY",
@@ -11336,7 +11336,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -11355,7 +11355,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11371,7 +11371,7 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "ORIGINAL",
@@ -11392,7 +11392,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -11408,7 +11408,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -11424,7 +11424,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 }
@@ -11447,7 +11447,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11463,7 +11463,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11479,7 +11479,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11495,7 +11495,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11511,7 +11511,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11527,7 +11527,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11543,7 +11543,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11559,7 +11559,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11575,7 +11575,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11591,7 +11591,7 @@ export default
                         48
                     ],
                     "initValue": 2,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11607,7 +11607,7 @@ export default
                         12
                     ],
                     "initValue": 2,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11623,7 +11623,7 @@ export default
                         26
                     ],
                     "initValue": 16,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "-36",
@@ -11667,7 +11667,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -11686,7 +11686,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -11705,7 +11705,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -11724,7 +11724,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "NORMAL",
@@ -11743,7 +11743,7 @@ export default
                         100
                     ],
                     "initValue": 10,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11759,13 +11759,13 @@ export default
                         160
                     ],
                     "initValue": 10,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "EQQ",
                     "displayRange": [
-                        "0.5",
-                        "16.0"
+                        0.5,
+                        16
                     ]
                 },
                 {
@@ -11780,7 +11780,7 @@ export default
                         16000
                     ],
                     "initValue": 200,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11796,7 +11796,7 @@ export default
                         16000
                     ],
                     "initValue": 1000,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11812,7 +11812,7 @@ export default
                         16000
                     ],
                     "initValue": 2000,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -11828,13 +11828,13 @@ export default
                         240
                     ],
                     "initValue": 0,
-                    "valueOffset": 1024,
+                    "sysexValueOffset": 1024,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "EQGAIN",
                     "displayRange": [
-                        "-24.0",
-                        "+24.0"
+                        -24,
+                        24
                     ]
                 },
                 {
@@ -11849,13 +11849,13 @@ export default
                         240
                     ],
                     "initValue": 0,
-                    "valueOffset": 1024,
+                    "sysexValueOffset": 1024,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "EQGAIN",
                     "displayRange": [
-                        "-24.0",
-                        "+24.0"
+                        -24,
+                        24
                     ]
                 },
                 {
@@ -11870,13 +11870,13 @@ export default
                         240
                     ],
                     "initValue": 0,
-                    "valueOffset": 1024,
+                    "sysexValueOffset": 1024,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "EQGAIN",
                     "displayRange": [
-                        "-24.0",
-                        "+24.0"
+                        -24,
+                        24
                     ]
                 },
                 {
@@ -11891,7 +11891,7 @@ export default
                         1
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -11910,7 +11910,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -11936,7 +11936,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -11955,7 +11955,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -11974,12 +11974,12 @@ export default
                         3
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayRange": [
-                        "1",
-                        "4"
+                        1,
+                        4
                     ]
                 },
                 {
@@ -11994,7 +11994,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -12013,7 +12013,7 @@ export default
                         4
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "TRI",
@@ -12035,7 +12035,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -12054,7 +12054,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -12070,7 +12070,7 @@ export default
                         22
                     ],
                     "initValue": 12,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "1/64T",
@@ -12110,7 +12110,7 @@ export default
                         101
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -12126,7 +12126,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12142,7 +12142,7 @@ export default
                         2
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "-",
@@ -12162,7 +12162,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -12181,7 +12181,7 @@ export default
                         4
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "TRI",
@@ -12203,7 +12203,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -12222,7 +12222,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -12238,7 +12238,7 @@ export default
                         22
                     ],
                     "initValue": 12,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "1/64T",
@@ -12278,7 +12278,7 @@ export default
                         101
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -12294,7 +12294,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12310,7 +12310,7 @@ export default
                         2
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "-",
@@ -12330,7 +12330,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -12349,7 +12349,7 @@ export default
                         16383
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -12365,7 +12365,7 @@ export default
                         49
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -12381,7 +12381,7 @@ export default
                         5
                     ],
                     "initValue": 3,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "-18",
@@ -12405,7 +12405,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12421,7 +12421,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12437,7 +12437,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -12453,7 +12453,7 @@ export default
                         16
                     ],
                     "initValue": 5,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "-100",
@@ -12488,7 +12488,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -12507,7 +12507,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -12526,7 +12526,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12542,7 +12542,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12558,7 +12558,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12574,7 +12574,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12590,7 +12590,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12606,7 +12606,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12622,7 +12622,7 @@ export default
                         10
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12638,7 +12638,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12654,7 +12654,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12670,7 +12670,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12686,7 +12686,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -12702,7 +12702,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -12718,7 +12718,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -12734,7 +12734,7 @@ export default
                         2
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "LPF",
@@ -12754,7 +12754,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -12770,7 +12770,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -12786,7 +12786,7 @@ export default
                         40
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "-100 ",
@@ -12845,7 +12845,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12861,7 +12861,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "LFO1 ",
@@ -12880,7 +12880,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12896,7 +12896,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12912,7 +12912,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12928,7 +12928,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12944,7 +12944,7 @@ export default
                         10
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -12960,7 +12960,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -12976,7 +12976,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -12992,7 +12992,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -13008,7 +13008,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -13024,7 +13024,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -13040,7 +13040,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -13056,7 +13056,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -13072,7 +13072,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -13088,7 +13088,7 @@ export default
                         2
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "UP ",
@@ -13108,7 +13108,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -13124,7 +13124,7 @@ export default
                         10
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -13140,7 +13140,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -13156,7 +13156,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -13172,7 +13172,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "LFO1 ",
@@ -13191,7 +13191,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -13207,7 +13207,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -13223,7 +13223,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -13239,7 +13239,7 @@ export default
                         10
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -13255,7 +13255,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -13271,7 +13271,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -13287,7 +13287,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -13303,7 +13303,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -13319,7 +13319,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -13335,7 +13335,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -13351,7 +13351,7 @@ export default
                         100
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 }
@@ -13374,7 +13374,7 @@ export default
                         5
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "CHO-DLY-REV",
@@ -13397,7 +13397,7 @@ export default
                         1
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -13416,7 +13416,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -13435,7 +13435,7 @@ export default
                         125
                     ],
                     "initValue": 125,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "0.1",
@@ -13579,7 +13579,7 @@ export default
                         21
                     ],
                     "initValue": 15,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "MUSICAL-NOTES"
@@ -13597,7 +13597,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -13616,7 +13616,7 @@ export default
                         125
                     ],
                     "initValue": 105,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "0.1",
@@ -13760,7 +13760,7 @@ export default
                         21
                     ],
                     "initValue": 10,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "MUSICAL-NOTES"
@@ -13778,7 +13778,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -13797,7 +13797,7 @@ export default
                         125
                     ],
                     "initValue": 115,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "0.1",
@@ -13941,7 +13941,7 @@ export default
                         21
                     ],
                     "initValue": 13,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "MUSICAL-NOTES"
@@ -13959,7 +13959,7 @@ export default
                         100
                     ],
                     "initValue": 100,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -13975,7 +13975,7 @@ export default
                         100
                     ],
                     "initValue": 100,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -13991,7 +13991,7 @@ export default
                         100
                     ],
                     "initValue": 100,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -14007,13 +14007,13 @@ export default
                         98
                     ],
                     "initValue": 59,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "%",
                     "displayRange": [
-                        "-98",
-                        "+98"
+                        -98,
+                        98
                     ]
                 },
                 {
@@ -14028,7 +14028,7 @@ export default
                         1
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -14047,13 +14047,13 @@ export default
                         99
                     ],
                     "initValue": 5,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "Hz",
                     "displayRange": [
-                        "0.1",
-                        "10.0"
+                        0.1,
+                        10
                     ]
                 },
                 {
@@ -14068,7 +14068,7 @@ export default
                         100
                     ],
                     "initValue": 20,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -14084,7 +14084,7 @@ export default
                         99
                     ],
                     "initValue": 19,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "0.1",
@@ -14202,13 +14202,13 @@ export default
                         98
                     ],
                     "initValue": 49,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "%",
                     "displayRange": [
-                        "-98",
-                        "+98"
+                        -98,
+                        98
                     ]
                 },
                 {
@@ -14223,7 +14223,7 @@ export default
                         100
                     ],
                     "initValue": 100,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -14239,7 +14239,7 @@ export default
                         1
                     ],
                     "initValue": 1,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "OFF",
@@ -14258,7 +14258,7 @@ export default
                         9
                     ],
                     "initValue": 5,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "ROOM1",
@@ -14285,7 +14285,7 @@ export default
                         120
                     ],
                     "initValue": 20,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "msec"
@@ -14302,7 +14302,7 @@ export default
                         100
                     ],
                     "initValue": 100,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -14318,7 +14318,7 @@ export default
                         16
                     ],
                     "initValue": 16,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "500Hz",
@@ -14352,7 +14352,7 @@ export default
                         99
                     ],
                     "initValue": 19,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "0.1",
@@ -14470,7 +14470,7 @@ export default
                         100
                     ],
                     "initValue": 100,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -14486,7 +14486,7 @@ export default
                         100
                     ],
                     "initValue": 50,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "D100:0W - D0:100W"
@@ -14504,7 +14504,7 @@ export default
                         127
                     ],
                     "initValue": 127,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 }
@@ -14527,7 +14527,7 @@ export default
                         127
                     ],
                     "initValue": 100,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -14543,7 +14543,7 @@ export default
                         127
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -14559,7 +14559,7 @@ export default
                         127
                     ],
                     "initValue": 100,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -14575,7 +14575,7 @@ export default
                         25
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "Classic A",
@@ -14618,7 +14618,7 @@ export default
                         1
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "Basic",
@@ -14637,7 +14637,7 @@ export default
                         0
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -14653,7 +14653,7 @@ export default
                         127
                     ],
                     "initValue": 100,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -14669,7 +14669,7 @@ export default
                         63
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -14685,7 +14685,7 @@ export default
                         48
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -14701,7 +14701,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 },
@@ -14717,7 +14717,7 @@ export default
                         2
                     ],
                     "initValue": 0,
-                    "valueOffset": 64,
+                    "sysexValueOffset": 64,
                     "isPadding": false,
                     "values": null
                 }
@@ -14740,7 +14740,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -14757,7 +14757,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -14774,7 +14774,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -14791,7 +14791,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -14808,7 +14808,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -14825,7 +14825,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -14842,7 +14842,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -14859,7 +14859,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -14876,7 +14876,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -14893,7 +14893,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -14910,7 +14910,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -14927,7 +14927,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -14944,7 +14944,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -14961,7 +14961,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -14978,7 +14978,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -14995,7 +14995,7 @@ export default
                         127
                     ],
                     "initValue": 32,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null,
                     "displayMeasurement": "ASCII"
@@ -15012,7 +15012,7 @@ export default
                         50
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": {
                         "0": "None",
@@ -15080,7 +15080,7 @@ export default
                         0
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 },
@@ -15096,7 +15096,7 @@ export default
                         0
                     ],
                     "initValue": 0,
-                    "valueOffset": 0,
+                    "sysexValueOffset": 0,
                     "isPadding": false,
                     "values": null
                 }
